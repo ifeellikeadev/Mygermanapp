@@ -1,0 +1,2815 @@
+{
+ "rules": [
+  {
+   "id": "g01",
+   "title": "Nominative and accusative",
+   "level": "A1",
+   "cat": "cases",
+   "explain": "The nominative is the subject (who or what does something). The accusative is the direct object (who or what is affected). Only the masculine changes: der becomes den and ein becomes einen. Feminine, neuter and plural look the same in both cases.",
+   "table": null,
+   "examples": [
+    [
+     "Der Mann sieht den Hund.",
+     "The man sees the dog."
+    ],
+    [
+     "Ich kaufe einen Tisch.",
+     "I am buying a table."
+    ],
+    [
+     "Die Frau liest ein Buch.",
+     "The woman is reading a book."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich sehe ___ Mann.",
+     "opts": [
+      "der",
+      "den",
+      "dem",
+      "des"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Er hat ___ Katze.",
+     "opts": [
+      "ein",
+      "einen",
+      "eine",
+      "einem"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g02",
+   "title": "Definite article (der, die, das) in all cases",
+   "level": "A1",
+   "cat": "cases",
+   "explain": "The definite article changes with gender, number and case. Learn this table by heart: it is the base for everything else. In the dative plural the noun also takes -n (den Kindern).",
+   "table": {
+    "head": [
+     "Case",
+     "masc.",
+     "fem.",
+     "neut.",
+     "plural"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "der",
+      "die",
+      "das",
+      "die"
+     ],
+     [
+      "Akkusativ",
+      "den",
+      "die",
+      "das",
+      "die"
+     ],
+     [
+      "Dativ",
+      "dem",
+      "der",
+      "dem",
+      "den (+n)"
+     ],
+     [
+      "Genitiv",
+      "des (+s)",
+      "der",
+      "des (+s)",
+      "der"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Ich gebe dem Kind den Ball.",
+     "I give the child the ball."
+    ],
+    [
+     "Das ist das Auto des Mannes.",
+     "That is the man's car."
+    ],
+    [
+     "Die Kinder spielen mit den Freunden.",
+     "The children play with the friends."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich helfe ___ Frau.",
+     "opts": [
+      "die",
+      "der",
+      "den",
+      "dem"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Er gibt ___ Kind einen Apfel.",
+     "opts": [
+      "das",
+      "dem",
+      "den",
+      "des"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g03",
+   "title": "Indefinite article and kein",
+   "level": "A1",
+   "cat": "cases",
+   "explain": "ein/eine/ein (a, an) has no plural. Kein (no, not a) takes the same endings as ein but also has a plural: keine. Use kein to negate a noun with ein or no article.",
+   "table": {
+    "head": [
+     "Case",
+     "masc.",
+     "fem.",
+     "neut.",
+     "plural (kein)"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "ein",
+      "eine",
+      "ein",
+      "keine"
+     ],
+     [
+      "Akkusativ",
+      "einen",
+      "eine",
+      "ein",
+      "keine"
+     ],
+     [
+      "Dativ",
+      "einem",
+      "einer",
+      "einem",
+      "keinen"
+     ],
+     [
+      "Genitiv",
+      "eines",
+      "einer",
+      "eines",
+      "keiner"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Ich habe keinen Bruder.",
+     "I have no brother."
+    ],
+    [
+     "Sie wohnt in einer kleinen Stadt.",
+     "She lives in a small town."
+    ],
+    [
+     "Wir haben keine Kinder.",
+     "We have no children."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Wir haben ___ Auto.",
+     "opts": [
+      "kein",
+      "keine",
+      "keinen",
+      "keinem"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Ich fahre mit ___ Bus.",
+     "opts": [
+      "ein",
+      "einen",
+      "einem",
+      "einer"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g04",
+   "title": "Possessive articles (mein, dein, sein ...)",
+   "level": "A1",
+   "cat": "cases",
+   "explain": "Possessives agree with the noun they describe, not with the owner, and they take the same endings as ein/kein. Sein is for he/it, ihr for she and for they.",
+   "table": {
+    "head": [
+     "Person",
+     "Possessive"
+    ],
+    "rows": [
+     [
+      "ich",
+      "mein"
+     ],
+     [
+      "du",
+      "dein"
+     ],
+     [
+      "er / es",
+      "sein"
+     ],
+     [
+      "sie",
+      "ihr"
+     ],
+     [
+      "wir",
+      "unser"
+     ],
+     [
+      "ihr",
+      "euer (eure)"
+     ],
+     [
+      "sie / Sie",
+      "ihr / Ihr"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Das ist mein Bruder.",
+     "That is my brother."
+    ],
+    [
+     "Ich besuche meine Eltern.",
+     "I am visiting my parents."
+    ],
+    [
+     "Er gibt seiner Schwester ein Buch.",
+     "He gives his sister a book."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich sehe ___ Schwester.",
+     "opts": [
+      "mein",
+      "meine",
+      "meinen",
+      "meiner"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Das ist ___ Auto. (wir)",
+     "opts": [
+      "unser",
+      "unsere",
+      "unseren",
+      "unserem"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g05",
+   "title": "Dative: the indirect object",
+   "level": "A1",
+   "cat": "cases",
+   "explain": "The dative marks the person who receives or benefits (to whom, for whom). It is used with verbs like geben, zeigen, schenken, schreiben, and also with verbs that always take the dative, such as helfen, danken, gefallen and gehören.",
+   "table": null,
+   "examples": [
+    [
+     "Ich schenke meiner Mutter Blumen.",
+     "I give my mother flowers."
+    ],
+    [
+     "Das Buch gehört mir.",
+     "The book belongs to me."
+    ],
+    [
+     "Wie geht es dir?",
+     "How are you?"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich danke ___ Lehrer.",
+     "opts": [
+      "der",
+      "den",
+      "dem",
+      "des"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Sie zeigt ___ Gästen das Haus.",
+     "opts": [
+      "die",
+      "den",
+      "dem",
+      "der"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g06",
+   "title": "Genitive: possession",
+   "level": "A2",
+   "cat": "cases",
+   "explain": "The genitive shows possession (of). Masculine and neuter nouns add -s or -es. In spoken German von + dative is common instead: das Haus von meinem Bruder.",
+   "table": null,
+   "examples": [
+    [
+     "Das ist das Auto meines Vaters.",
+     "That is my father's car."
+    ],
+    [
+     "Die Farbe der Tür ist blau.",
+     "The color of the door is blue."
+    ],
+    [
+     "Das Haus von meinem Bruder ist neu.",
+     "My brother's house is new (spoken)."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Das ist das Buch ___ Lehrers.",
+     "opts": [
+      "der",
+      "des",
+      "dem",
+      "den"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Das ist die Tasche ___ Frau.",
+     "opts": [
+      "des",
+      "der",
+      "den",
+      "dem"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g07",
+   "title": "Prepositions with the accusative",
+   "level": "A1",
+   "cat": "prepositions",
+   "explain": "These prepositions are always followed by the accusative: durch, für, gegen, ohne, um, bis, entlang. A memory aid is the list: für, um, durch, gegen, ohne, bis.",
+   "table": null,
+   "examples": [
+    [
+     "Das Geschenk ist für dich.",
+     "The gift is for you."
+    ],
+    [
+     "Wir gehen durch den Park.",
+     "We walk through the park."
+    ],
+    [
+     "Ich trinke Kaffee ohne Zucker.",
+     "I drink coffee without sugar."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Das ist ein Geschenk für ___ Mutter.",
+     "opts": [
+      "meine",
+      "meiner",
+      "meinen",
+      "meinem"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Wir gehen durch ___ Stadt.",
+     "opts": [
+      "der",
+      "dem",
+      "die",
+      "den"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g08",
+   "title": "Prepositions with the dative",
+   "level": "A1",
+   "cat": "prepositions",
+   "explain": "These are always followed by the dative: aus, außer, bei, mit, nach, seit, von, zu, gegenüber, ab. A memory aid: aus, bei, mit, nach, seit, von, zu.",
+   "table": null,
+   "examples": [
+    [
+     "Ich fahre mit dem Bus.",
+     "I go by bus."
+    ],
+    [
+     "Sie kommt aus der Schweiz.",
+     "She comes from Switzerland."
+    ],
+    [
+     "Nach dem Essen gehen wir spazieren.",
+     "After dinner we go for a walk."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich wohne seit ___ Jahr hier.",
+     "opts": [
+      "ein",
+      "einen",
+      "einem",
+      "einer"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Er kommt aus ___ Türkei.",
+     "opts": [
+      "die",
+      "der",
+      "den",
+      "dem"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g09",
+   "title": "Two-way prepositions (Wechselpräpositionen)",
+   "level": "A2",
+   "cat": "prepositions",
+   "explain": "an, auf, hinter, in, neben, über, unter, vor, zwischen take the accusative when there is movement to a place (wohin?) and the dative when something is at a place (wo?).",
+   "table": null,
+   "examples": [
+    [
+     "Ich lege das Buch auf den Tisch.",
+     "I put the book on the table."
+    ],
+    [
+     "Das Buch liegt auf dem Tisch.",
+     "The book is lying on the table."
+    ],
+    [
+     "Wir gehen in die Stadt.",
+     "We go into town."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Wo ist das Buch? Auf ___ Tisch.",
+     "opts": [
+      "dem",
+      "den",
+      "der",
+      "das"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Wohin gehst du? In ___ Küche.",
+     "opts": [
+      "die",
+      "der",
+      "dem",
+      "den"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g10",
+   "title": "Prepositions with the genitive",
+   "level": "B1",
+   "cat": "prepositions",
+   "explain": "wegen, trotz, während, statt, innerhalb, außerhalb and aufgrund take the genitive in written and formal German. In everyday speech many people use the dative instead (wegen dem Regen).",
+   "table": null,
+   "examples": [
+    [
+     "Wegen des Regens bleiben wir zu Hause.",
+     "Because of the rain we stay at home."
+    ],
+    [
+     "Während der Arbeit trinke ich Kaffee.",
+     "During work I drink coffee."
+    ],
+    [
+     "Trotz des Staus kam er pünktlich.",
+     "Despite the traffic jam he arrived on time."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Trotz ___ Regens gehen wir raus.",
+     "opts": [
+      "der",
+      "des",
+      "dem",
+      "den"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Während ___ Pause esse ich einen Apfel.",
+     "opts": [
+      "der",
+      "des",
+      "dem",
+      "den"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g11",
+   "title": "Personal pronouns in all cases",
+   "level": "A1",
+   "cat": "cases",
+   "explain": "Personal pronouns change with case. The accusative and dative forms are essential for real conversation: Ich sehe ihn. Ich helfe ihm.",
+   "table": {
+    "head": [
+     "Nominativ",
+     "Akkusativ",
+     "Dativ"
+    ],
+    "rows": [
+     [
+      "ich",
+      "mich",
+      "mir"
+     ],
+     [
+      "du",
+      "dich",
+      "dir"
+     ],
+     [
+      "er",
+      "ihn",
+      "ihm"
+     ],
+     [
+      "sie",
+      "sie",
+      "ihr"
+     ],
+     [
+      "es",
+      "es",
+      "ihm"
+     ],
+     [
+      "wir",
+      "uns",
+      "uns"
+     ],
+     [
+      "ihr",
+      "euch",
+      "euch"
+     ],
+     [
+      "sie (they)",
+      "sie",
+      "ihnen"
+     ],
+     [
+      "Sie (formal)",
+      "Sie",
+      "Ihnen"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Ich sehe ihn jeden Tag.",
+     "I see him every day."
+    ],
+    [
+     "Kannst du mir helfen?",
+     "Can you help me?"
+    ],
+    [
+     "Wir besuchen euch morgen.",
+     "We are visiting you tomorrow."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich gebe ___ das Buch. (er)",
+     "opts": [
+      "er",
+      "ihn",
+      "ihm",
+      "sein"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Kennst du ___? (sie, she)",
+     "opts": [
+      "sie",
+      "ihr",
+      "ihm",
+      "ihn"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g12",
+   "title": "Reflexive verbs and pronouns",
+   "level": "A2",
+   "cat": "verbs",
+   "explain": "A reflexive verb has a pronoun that refers back to the subject: sich freuen, sich waschen, sich treffen. The reflexive pronoun is accusative, but dative if there is another accusative object: Ich wasche mir die Hände.",
+   "table": {
+    "head": [
+     "Person",
+     "Reflexive pronoun"
+    ],
+    "rows": [
+     [
+      "ich",
+      "mich"
+     ],
+     [
+      "du",
+      "dich"
+     ],
+     [
+      "er / sie / es",
+      "sich"
+     ],
+     [
+      "wir",
+      "uns"
+     ],
+     [
+      "ihr",
+      "euch"
+     ],
+     [
+      "sie / Sie",
+      "sich"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Ich freue mich auf das Wochenende.",
+     "I am looking forward to the weekend."
+    ],
+    [
+     "Er interessiert sich für Kunst.",
+     "He is interested in art."
+    ],
+    [
+     "Ich putze mir die Zähne.",
+     "I brush my teeth."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Wir treffen ___ um acht.",
+     "opts": [
+      "mich",
+      "uns",
+      "euch",
+      "sich"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Ich wasche ___ die Hände.",
+     "opts": [
+      "mich",
+      "mir",
+      "dich",
+      "sich"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g13",
+   "title": "Noun gender: patterns",
+   "level": "A1",
+   "cat": "nouns",
+   "explain": "Many genders can be guessed from the ending. Feminine: -ung, -heit, -keit, -schaft, -tion, -ität, -ei, -ur. Masculine: -er (people), -ling, -ismus, days, months, seasons. Neuter: -chen, -lein, -um, -ment, infinitives used as nouns.",
+   "table": null,
+   "examples": [
+    [
+     "die Zeitung, die Freiheit, die Möglichkeit",
+     "newspaper, freedom, possibility (all feminine)"
+    ],
+    [
+     "das Mädchen, das Brötchen, das Dokument",
+     "girl, bread roll, document (all neuter)"
+    ],
+    [
+     "der Frühling, der Montag, der Lehrer",
+     "spring, Monday, teacher (all masculine)"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "___ Möglichkeit",
+     "opts": [
+      "der",
+      "die",
+      "das"
+     ],
+     "a": 1
+    },
+    {
+     "q": "___ Mädchen",
+     "opts": [
+      "der",
+      "die",
+      "das"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g14",
+   "title": "Plural formation",
+   "level": "A1",
+   "cat": "nouns",
+   "explain": "German has several plural types and there is no perfect rule, so learn the plural with each noun. Typical patterns are shown in the table. Many masculine nouns take -e, most feminine nouns take -n or -en, and words from other languages often take -s.",
+   "table": {
+    "head": [
+     "Type",
+     "Singular",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "-e",
+      "der Tag",
+      "die Tage"
+     ],
+     [
+      "umlaut + -e",
+      "die Hand",
+      "die Hände"
+     ],
+     [
+      "-er / umlaut + -er",
+      "das Kind / das Haus",
+      "die Kinder / die Häuser"
+     ],
+     [
+      "-n / -en",
+      "die Frau / die Blume",
+      "die Frauen / die Blumen"
+     ],
+     [
+      "-s",
+      "das Auto",
+      "die Autos"
+     ],
+     [
+      "no change",
+      "der Lehrer",
+      "die Lehrer"
+     ],
+     [
+      "umlaut only",
+      "der Vater",
+      "die Väter"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "ein Tag, zwei Tage",
+     "one day, two days"
+    ],
+    [
+     "ein Kind, zwei Kinder",
+     "one child, two children"
+    ],
+    [
+     "eine Frau, zwei Frauen",
+     "one woman, two women"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Plural von das Haus:",
+     "opts": [
+      "die Haus",
+      "die Hauser",
+      "die Häuser",
+      "die Hausen"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Plural von die Frau:",
+     "opts": [
+      "die Frauen",
+      "die Fraue",
+      "die Fräuen",
+      "die Fraus"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g15",
+   "title": "Weak masculine nouns (n-declension)",
+   "level": "B1",
+   "cat": "nouns",
+   "explain": "A group of masculine nouns, mostly people and animals, take -n or -en in every case except the nominative singular: der Junge, der Student, der Kollege, der Kunde, der Mensch, der Herr (Herrn), der Name.",
+   "table": null,
+   "examples": [
+    [
+     "Ich kenne den Jungen.",
+     "I know the boy."
+    ],
+    [
+     "Er hilft dem Studenten.",
+     "He helps the student."
+    ],
+    [
+     "Das ist der Name des Kunden.",
+     "That is the customer's name."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich sehe den ___.",
+     "opts": [
+      "Kunde",
+      "Kunden",
+      "Kundes",
+      "Kundem"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Wir helfen dem ___.",
+     "opts": [
+      "Student",
+      "Studente",
+      "Studenten",
+      "Studentes"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g16",
+   "title": "Present tense: regular verbs",
+   "level": "A1",
+   "cat": "verbs",
+   "explain": "Take the stem (infinitive minus -en) and add the endings. If the stem ends in -t or -d (arbeiten, finden), add an extra -e in du, er/sie/es and ihr: du arbeitest, er arbeitet, ihr arbeitet.",
+   "table": {
+    "head": [
+     "Person",
+     "machen"
+    ],
+    "rows": [
+     [
+      "ich",
+      "mache"
+     ],
+     [
+      "du",
+      "machst"
+     ],
+     [
+      "er / sie / es",
+      "macht"
+     ],
+     [
+      "wir",
+      "machen"
+     ],
+     [
+      "ihr",
+      "macht"
+     ],
+     [
+      "sie / Sie",
+      "machen"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Ich lerne Deutsch.",
+     "I am learning German."
+    ],
+    [
+     "Du arbeitest viel.",
+     "You work a lot."
+    ],
+    [
+     "Wir wohnen in München.",
+     "We live in Munich."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Er ___ gern Fußball. (spielen)",
+     "opts": [
+      "spiele",
+      "spielst",
+      "spielt",
+      "spielen"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Ihr ___ sehr schnell. (lernen)",
+     "opts": [
+      "lernt",
+      "lerne",
+      "lernst",
+      "lernen"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g17",
+   "title": "sein, haben, werden",
+   "level": "A1",
+   "cat": "verbs",
+   "explain": "These three verbs are irregular and are used constantly, both on their own and as auxiliary verbs. Learn all forms.",
+   "table": {
+    "head": [
+     "Person",
+     "sein",
+     "haben",
+     "werden"
+    ],
+    "rows": [
+     [
+      "ich",
+      "bin",
+      "habe",
+      "werde"
+     ],
+     [
+      "du",
+      "bist",
+      "hast",
+      "wirst"
+     ],
+     [
+      "er / sie / es",
+      "ist",
+      "hat",
+      "wird"
+     ],
+     [
+      "wir",
+      "sind",
+      "haben",
+      "werden"
+     ],
+     [
+      "ihr",
+      "seid",
+      "habt",
+      "werdet"
+     ],
+     [
+      "sie / Sie",
+      "sind",
+      "haben",
+      "werden"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Ich bin müde.",
+     "I am tired."
+    ],
+    [
+     "Du hast recht.",
+     "You are right."
+    ],
+    [
+     "Es wird kalt.",
+     "It is getting cold."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Wir ___ müde.",
+     "opts": [
+      "bin",
+      "bist",
+      "sind",
+      "seid"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Du ___ recht.",
+     "opts": [
+      "habe",
+      "hast",
+      "hat",
+      "haben"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g18",
+   "title": "Stem-changing verbs",
+   "level": "A1",
+   "cat": "verbs",
+   "explain": "Some strong verbs change their stem vowel in du and er/sie/es only: e → i (sprechen, geben, essen, helfen, nehmen, treffen), e → ie (sehen, lesen, empfehlen), a → ä (fahren, schlafen, tragen, laufen). The other persons are regular.",
+   "table": {
+    "head": [
+     "Verb",
+     "ich",
+     "du",
+     "er / sie / es"
+    ],
+    "rows": [
+     [
+      "sprechen",
+      "spreche",
+      "sprichst",
+      "spricht"
+     ],
+     [
+      "sehen",
+      "sehe",
+      "siehst",
+      "sieht"
+     ],
+     [
+      "fahren",
+      "fahre",
+      "fährst",
+      "fährt"
+     ],
+     [
+      "nehmen",
+      "nehme",
+      "nimmst",
+      "nimmt"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Er spricht gut Deutsch.",
+     "He speaks German well."
+    ],
+    [
+     "Du liest ein Buch.",
+     "You are reading a book."
+    ],
+    [
+     "Sie fährt nach Wien.",
+     "She is driving to Vienna."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Sie ___ ein Buch. (lesen)",
+     "opts": [
+      "liest",
+      "liesst",
+      "lest",
+      "lesen"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Du ___ gut. (schlafen)",
+     "opts": [
+      "schlafst",
+      "schläfst",
+      "schlaft",
+      "schlaf"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g19",
+   "title": "Modal verbs",
+   "level": "A1",
+   "cat": "verbs",
+   "explain": "Modal verbs (können, müssen, wollen, dürfen, sollen, möchten) express ability, obligation, wish and permission. The modal is conjugated in second position and the main verb goes to the end as an infinitive. Ich and er/sie/es have the same form.",
+   "table": {
+    "head": [
+     "Person",
+     "können",
+     "müssen",
+     "wollen",
+     "dürfen",
+     "sollen",
+     "möchten"
+    ],
+    "rows": [
+     [
+      "ich",
+      "kann",
+      "muss",
+      "will",
+      "darf",
+      "soll",
+      "möchte"
+     ],
+     [
+      "du",
+      "kannst",
+      "musst",
+      "willst",
+      "darfst",
+      "sollst",
+      "möchtest"
+     ],
+     [
+      "er / sie / es",
+      "kann",
+      "muss",
+      "will",
+      "darf",
+      "soll",
+      "möchte"
+     ],
+     [
+      "wir",
+      "können",
+      "müssen",
+      "wollen",
+      "dürfen",
+      "sollen",
+      "möchten"
+     ],
+     [
+      "ihr",
+      "könnt",
+      "müsst",
+      "wollt",
+      "dürft",
+      "sollt",
+      "möchtet"
+     ],
+     [
+      "sie / Sie",
+      "können",
+      "müssen",
+      "wollen",
+      "dürfen",
+      "sollen",
+      "möchten"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Ich kann heute nicht kommen.",
+     "I cannot come today."
+    ],
+    [
+     "Du musst mehr schlafen.",
+     "You have to sleep more."
+    ],
+    [
+     "Wir möchten einen Tisch reservieren.",
+     "We would like to reserve a table."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich ___ morgen arbeiten.",
+     "opts": [
+      "muss",
+      "musst",
+      "müssen",
+      "müsse"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Ihr ___ hier nicht rauchen.",
+     "opts": [
+      "darf",
+      "darfst",
+      "dürfen",
+      "dürft"
+     ],
+     "a": 3
+    }
+   ]
+  },
+  {
+   "id": "g20",
+   "title": "Separable verbs",
+   "level": "A1",
+   "cat": "verbs",
+   "explain": "Many verbs have a prefix that splits off and goes to the end of a main clause: aufstehen → Ich stehe um sieben auf. Common separable prefixes are ab-, an-, auf-, aus-, ein-, mit-, vor-, zu-, zurück-. In a subordinate clause the verb stays together, in the Perfekt the ge- goes in the middle (aufgestanden).",
+   "table": null,
+   "examples": [
+    [
+     "Ich stehe um sieben Uhr auf.",
+     "I get up at seven."
+    ],
+    [
+     "Der Zug kommt um acht an.",
+     "The train arrives at eight."
+    ],
+    [
+     "Ich rufe dich morgen an.",
+     "I will call you tomorrow."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Welcher Satz ist richtig?",
+     "opts": [
+      "Ich aufstehe um sieben.",
+      "Ich stehe um sieben auf.",
+      "Ich stehe auf um sieben.",
+      "Ich um sieben stehe auf."
+     ],
+     "a": 1
+    },
+    {
+     "q": "Welcher Satz ist richtig?",
+     "opts": [
+      "Er ruft mich an.",
+      "Er anruft mich.",
+      "Er ruft an mich.",
+      "Er mich ruft an."
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g21",
+   "title": "Inseparable verbs",
+   "level": "A2",
+   "cat": "verbs",
+   "explain": "Verbs with the prefixes be-, ent-, er-, ge-, ver-, zer- and miss- never split. Their Partizip II has no ge-: besuchen → besucht, verstehen → verstanden.",
+   "table": null,
+   "examples": [
+    [
+     "Ich verstehe dich.",
+     "I understand you."
+    ],
+    [
+     "Er hat mich besucht.",
+     "He visited me."
+    ],
+    [
+     "Wir bekommen ein Paket.",
+     "We are getting a package."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Partizip II von 'besuchen':",
+     "opts": [
+      "gebesucht",
+      "besucht",
+      "besuchen",
+      "besuchte"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Partizip II von 'verstehen':",
+     "opts": [
+      "geverstanden",
+      "verstehen",
+      "verstanden",
+      "verstand"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g22",
+   "title": "Perfekt (spoken past tense)",
+   "level": "A1",
+   "cat": "tenses",
+   "explain": "In spoken German the Perfekt is the normal past tense: haben or sein in second position plus the Partizip II at the end. Regular verbs: ge- + stem + -t (gemacht). Strong verbs: ge- + stem + -en (gesehen). Use sein with movement and change of state (gehen, fahren, kommen, bleiben, werden, passieren) and with sein itself.",
+   "table": {
+    "head": [
+     "Person",
+     "haben-Perfekt",
+     "sein-Perfekt"
+    ],
+    "rows": [
+     [
+      "ich",
+      "habe gemacht",
+      "bin gegangen"
+     ],
+     [
+      "du",
+      "hast gemacht",
+      "bist gegangen"
+     ],
+     [
+      "er / sie / es",
+      "hat gemacht",
+      "ist gegangen"
+     ],
+     [
+      "wir",
+      "haben gemacht",
+      "sind gegangen"
+     ],
+     [
+      "ihr",
+      "habt gemacht",
+      "seid gegangen"
+     ],
+     [
+      "sie / Sie",
+      "haben gemacht",
+      "sind gegangen"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Ich habe gestern Fußball gespielt.",
+     "I played football yesterday."
+    ],
+    [
+     "Wir sind nach Rom gefahren.",
+     "We went to Rome."
+    ],
+    [
+     "Sie hat das Buch gelesen.",
+     "She read the book."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich ___ nach Hause gegangen.",
+     "opts": [
+      "habe",
+      "bin",
+      "hat",
+      "ist"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Er ___ einen Brief geschrieben.",
+     "opts": [
+      "ist",
+      "hat",
+      "bin",
+      "haben"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g23",
+   "title": "Präteritum (simple past)",
+   "level": "A2",
+   "cat": "tenses",
+   "explain": "The Präteritum is used mostly in writing, and in speech for sein, haben and the modal verbs. Regular verbs take -te endings (machte). Strong verbs change the stem (ging, kam, sah) and have no ending in ich and er/sie/es.",
+   "table": {
+    "head": [
+     "Person",
+     "sein",
+     "haben",
+     "können",
+     "machen"
+    ],
+    "rows": [
+     [
+      "ich",
+      "war",
+      "hatte",
+      "konnte",
+      "machte"
+     ],
+     [
+      "du",
+      "warst",
+      "hattest",
+      "konntest",
+      "machtest"
+     ],
+     [
+      "er / sie / es",
+      "war",
+      "hatte",
+      "konnte",
+      "machte"
+     ],
+     [
+      "wir",
+      "waren",
+      "hatten",
+      "konnten",
+      "machten"
+     ],
+     [
+      "ihr",
+      "wart",
+      "hattet",
+      "konntet",
+      "machtet"
+     ],
+     [
+      "sie / Sie",
+      "waren",
+      "hatten",
+      "konnten",
+      "machten"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Gestern war ich krank.",
+     "Yesterday I was sick."
+    ],
+    [
+     "Wir hatten keine Zeit.",
+     "We had no time."
+    ],
+    [
+     "Er konnte nicht kommen.",
+     "He could not come."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Gestern ___ ich krank. (sein)",
+     "opts": [
+      "bin",
+      "war",
+      "wäre",
+      "ist"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Wir ___ keine Zeit. (haben)",
+     "opts": [
+      "haben",
+      "hatten",
+      "hattet",
+      "hätten"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g24",
+   "title": "Imperative",
+   "level": "A1",
+   "cat": "verbs",
+   "explain": "The imperative gives orders, advice and requests. du: the stem, often without -st (Komm!). Verbs with e → i or e → ie keep it (Sprich! Lies!). ihr: Kommt! Sie: Kommen Sie! (verb first, Sie after). Sein: Sei! Seid! Seien Sie!",
+   "table": null,
+   "examples": [
+    [
+     "Komm bitte her!",
+     "Please come here!"
+    ],
+    [
+     "Sprechen Sie langsam!",
+     "Please speak slowly!"
+    ],
+    [
+     "Seid bitte leise!",
+     "Please be quiet!"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Imperativ von 'lesen' (du):",
+     "opts": [
+      "lese",
+      "lies",
+      "lest",
+      "liest"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Imperativ von 'sein' (ihr):",
+     "opts": [
+      "seid",
+      "sei",
+      "sind",
+      "bist"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g25",
+   "title": "Future tense (Futur I)",
+   "level": "A2",
+   "cat": "tenses",
+   "explain": "Futur I is werden + infinitive at the end. It expresses plans, predictions and promises. German often uses the present tense with a time word instead: Morgen fahre ich nach Wien.",
+   "table": null,
+   "examples": [
+    [
+     "Ich werde dich anrufen.",
+     "I will call you."
+    ],
+    [
+     "Es wird morgen regnen.",
+     "It will rain tomorrow."
+    ],
+    [
+     "Wir fahren morgen nach Wien.",
+     "We are going to Vienna tomorrow (present for future)."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Es ___ morgen regnen.",
+     "opts": [
+      "wird",
+      "wirst",
+      "werde",
+      "werden"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Ich ___ dir helfen.",
+     "opts": [
+      "werde",
+      "wird",
+      "werden",
+      "wirst"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g26",
+   "title": "Konjunktiv II (polite wishes, unreal situations)",
+   "level": "B1",
+   "cat": "tenses",
+   "explain": "Konjunktiv II expresses politeness, wishes and unreal conditions. For most verbs use würde + infinitive. A few verbs have their own forms and are used a lot: wäre, hätte, könnte, müsste, dürfte, wollte. Pattern for unreal conditions: Wenn ich Zeit hätte, würde ich reisen.",
+   "table": {
+    "head": [
+     "Person",
+     "sein",
+     "haben",
+     "können",
+     "werden"
+    ],
+    "rows": [
+     [
+      "ich",
+      "wäre",
+      "hätte",
+      "könnte",
+      "würde"
+     ],
+     [
+      "du",
+      "wärst",
+      "hättest",
+      "könntest",
+      "würdest"
+     ],
+     [
+      "er / sie / es",
+      "wäre",
+      "hätte",
+      "könnte",
+      "würde"
+     ],
+     [
+      "wir",
+      "wären",
+      "hätten",
+      "könnten",
+      "würden"
+     ],
+     [
+      "ihr",
+      "wärt",
+      "hättet",
+      "könntet",
+      "würdet"
+     ],
+     [
+      "sie / Sie",
+      "wären",
+      "hätten",
+      "könnten",
+      "würden"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Ich hätte gern einen Kaffee.",
+     "I would like a coffee."
+    ],
+    [
+     "Könnten Sie mir helfen?",
+     "Could you help me?"
+    ],
+    [
+     "Wenn ich Zeit hätte, würde ich reisen.",
+     "If I had time, I would travel."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Wenn ich reich ___, würde ich reisen.",
+     "opts": [
+      "bin",
+      "wäre",
+      "war",
+      "würde"
+     ],
+     "a": 1
+    },
+    {
+     "q": "___ Sie mir bitte helfen?",
+     "opts": [
+      "Können",
+      "Könnten",
+      "Konnten",
+      "Kannst"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g27",
+   "title": "Passive voice",
+   "level": "B1",
+   "cat": "tenses",
+   "explain": "The passive focuses on the action, not who does it: werden + Partizip II. Present: Das Auto wird repariert. Past: Das Haus wurde gebaut. Perfekt: ist gebaut worden. The doer, if named, uses von + dative.",
+   "table": null,
+   "examples": [
+    [
+     "Das Auto wird repariert.",
+     "The car is being repaired."
+    ],
+    [
+     "Das Haus wurde 1990 gebaut.",
+     "The house was built in 1990."
+    ],
+    [
+     "Der Brief wird von meiner Kollegin geschrieben.",
+     "The letter is written by my colleague."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Das Essen ___ gekocht.",
+     "opts": [
+      "wird",
+      "wirst",
+      "werden",
+      "ist"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Das Haus ___ 1990 gebaut.",
+     "opts": [
+      "wird",
+      "wurde",
+      "war",
+      "ist"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g28",
+   "title": "Verbs with fixed prepositions",
+   "level": "B1",
+   "cat": "verbs",
+   "explain": "Many verbs always come with one specific preposition and a fixed case, and you must learn them together: warten auf + Akk, sich freuen auf + Akk, denken an + Akk, sprechen über + Akk, sich interessieren für + Akk, teilnehmen an + Dat, träumen von + Dat, fragen nach + Dat.",
+   "table": null,
+   "examples": [
+    [
+     "Ich warte auf den Bus.",
+     "I am waiting for the bus."
+    ],
+    [
+     "Er interessiert sich für Musik.",
+     "He is interested in music."
+    ],
+    [
+     "Wir sprechen über das Wetter.",
+     "We are talking about the weather."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich warte ___ den Bus.",
+     "opts": [
+      "für",
+      "auf",
+      "an",
+      "über"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Er interessiert sich ___ Musik.",
+     "opts": [
+      "an",
+      "für",
+      "auf",
+      "über"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g29",
+   "title": "Verbs that take the dative",
+   "level": "A2",
+   "cat": "verbs",
+   "explain": "Some verbs take a dative object even though English would use a direct object: helfen, danken, gefallen, gehören, schmecken, antworten, passen, fehlen, gratulieren, zuhören.",
+   "table": null,
+   "examples": [
+    [
+     "Das Kleid gefällt mir.",
+     "I like the dress."
+    ],
+    [
+     "Ich helfe meinem Bruder.",
+     "I help my brother."
+    ],
+    [
+     "Wem gehört das Auto?",
+     "Whose car is it?"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Das Essen schmeckt ___.",
+     "opts": [
+      "ich",
+      "mich",
+      "mir",
+      "mein"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Ich antworte ___ Chef.",
+     "opts": [
+      "der",
+      "den",
+      "dem",
+      "des"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g30",
+   "title": "wissen or kennen?",
+   "level": "A2",
+   "cat": "verbs",
+   "explain": "Wissen is for facts and information (often with dass, wo, wann ...). Kennen is for people, places and things you are familiar with. Wissen is irregular: ich weiß, du weißt, er weiß.",
+   "table": null,
+   "examples": [
+    [
+     "Ich weiß, wo er wohnt.",
+     "I know where he lives."
+    ],
+    [
+     "Ich kenne ihn gut.",
+     "I know him well."
+    ],
+    [
+     "Kennst du Berlin?",
+     "Do you know Berlin?"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich ___ nicht, wie er heißt.",
+     "opts": [
+      "kenne",
+      "weiß",
+      "wisse",
+      "kennt"
+     ],
+     "a": 1
+    },
+    {
+     "q": "___ du meinen Bruder?",
+     "opts": [
+      "Weißt",
+      "Kennst",
+      "Wisst",
+      "Kennt"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g31",
+   "title": "Main clause word order",
+   "level": "A1",
+   "cat": "syntax",
+   "explain": "In a statement the conjugated verb is always in second position. If something other than the subject starts the sentence (time, place), the subject moves behind the verb: Heute gehe ich ins Kino.",
+   "table": null,
+   "examples": [
+    [
+     "Ich gehe heute ins Kino.",
+     "I am going to the cinema today."
+    ],
+    [
+     "Heute gehe ich ins Kino.",
+     "Today I am going to the cinema."
+    ],
+    [
+     "Am Montag habe ich Unterricht.",
+     "On Monday I have class."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Welcher Satz ist richtig?",
+     "opts": [
+      "Morgen ich gehe arbeiten.",
+      "Morgen gehe ich arbeiten.",
+      "Ich morgen gehe arbeiten.",
+      "Gehe morgen ich arbeiten."
+     ],
+     "a": 1
+    },
+    {
+     "q": "Welcher Satz ist richtig?",
+     "opts": [
+      "Im Sommer wir fahren ans Meer.",
+      "Im Sommer fahren wir ans Meer.",
+      "Wir im Sommer fahren ans Meer.",
+      "Fahren im Sommer wir ans Meer."
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g32",
+   "title": "Questions",
+   "level": "A1",
+   "cat": "syntax",
+   "explain": "Yes/no questions start with the verb: Kommst du? Question-word questions start with the question word, then the verb, then the subject: Wo wohnst du? Common question words: wer, was, wo, wohin, woher, wann, warum, wie, wie viel, welcher, wie lange.",
+   "table": null,
+   "examples": [
+    [
+     "Kommst du heute Abend?",
+     "Are you coming tonight?"
+    ],
+    [
+     "Woher kommst du?",
+     "Where are you from?"
+    ],
+    [
+     "Wie lange dauert der Kurs?",
+     "How long does the course last?"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "___ wohnst du? In München.",
+     "opts": [
+      "Wer",
+      "Wo",
+      "Wohin",
+      "Woher"
+     ],
+     "a": 1
+    },
+    {
+     "q": "___ kommst du? Aus Italien.",
+     "opts": [
+      "Wo",
+      "Wohin",
+      "Woher",
+      "Wann"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g33",
+   "title": "Negation: nicht or kein?",
+   "level": "A1",
+   "cat": "syntax",
+   "explain": "Use kein to negate a noun that has ein or no article: Ich habe kein Auto. Use nicht for everything else: verbs, adjectives, adverbs and nouns with a definite article or possessive. Nicht usually goes at the end or before the word it negates.",
+   "table": null,
+   "examples": [
+    [
+     "Ich habe kein Auto.",
+     "I do not have a car."
+    ],
+    [
+     "Ich arbeite heute nicht.",
+     "I do not work today."
+    ],
+    [
+     "Das Essen ist nicht gut.",
+     "The food is not good."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich habe ___ Zeit.",
+     "opts": [
+      "nicht",
+      "kein",
+      "keine",
+      "keinen"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Das Auto ist ___ teuer.",
+     "opts": [
+      "nicht",
+      "kein",
+      "keine",
+      "keinen"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g34",
+   "title": "Conjunctions that do not change word order",
+   "level": "A1",
+   "cat": "syntax",
+   "explain": "und, aber, oder, denn and sondern join two main clauses and do not affect the word order: subject and verb stay as normal. Use sondern after a negative (nicht ... sondern).",
+   "table": null,
+   "examples": [
+    [
+     "Ich bin müde, aber ich arbeite weiter.",
+     "I am tired but I keep working."
+    ],
+    [
+     "Er trinkt keinen Kaffee, sondern Tee.",
+     "He does not drink coffee but tea."
+    ],
+    [
+     "Wir bleiben hier, denn es regnet.",
+     "We are staying here because it is raining."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich bleibe zu Hause, ___ ich bin krank.",
+     "opts": [
+      "weil",
+      "denn",
+      "dass",
+      "ob"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Sie trinkt keinen Kaffee, ___ Tee.",
+     "opts": [
+      "aber",
+      "denn",
+      "sondern",
+      "oder"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g35",
+   "title": "Subordinate clauses: verb at the end",
+   "level": "A2",
+   "cat": "syntax",
+   "explain": "After weil, dass, wenn, ob, obwohl, als, damit, bevor, nachdem, während, falls and sobald, the conjugated verb goes to the end of the clause. In the Perfekt the auxiliary goes last: ... weil ich nach Hause gegangen bin. If the subordinate clause comes first, the main clause starts with the verb: Weil ich müde bin, gehe ich ins Bett.",
+   "table": null,
+   "examples": [
+    [
+     "Ich bleibe zu Hause, weil ich krank bin.",
+     "I stay at home because I am sick."
+    ],
+    [
+     "Ich weiß, dass er kommt.",
+     "I know that he is coming."
+    ],
+    [
+     "Wenn es regnet, bleibe ich zu Hause.",
+     "If it rains, I stay at home."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Welcher Satz ist richtig?",
+     "opts": [
+      "Ich bleibe, weil ich bin müde.",
+      "Ich bleibe, weil ich müde bin.",
+      "Ich bleibe, weil bin ich müde.",
+      "Ich bleibe, bin weil ich müde."
+     ],
+     "a": 1
+    },
+    {
+     "q": "Wenn es regnet, ___ ich zu Hause.",
+     "opts": [
+      "bleibe",
+      "ich bleibe",
+      "bleiben",
+      "bleibt"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g36",
+   "title": "Time, cause, manner, place (TeKaMoLo)",
+   "level": "A2",
+   "cat": "syntax",
+   "explain": "When several details appear in the middle of a sentence, the usual order is Temporal, Kausal, Modal, Lokal: wann, warum, wie, wo/wohin. Ich fahre morgen wegen der Arbeit mit dem Zug nach Berlin.",
+   "table": null,
+   "examples": [
+    [
+     "Ich fahre morgen mit dem Zug nach Berlin.",
+     "I am going to Berlin by train tomorrow."
+    ],
+    [
+     "Wir treffen uns heute Abend im Café.",
+     "We are meeting tonight at the café."
+    ],
+    [
+     "Sie ist gestern wegen der Arbeit nach Wien gefahren.",
+     "She went to Vienna yesterday because of work."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Welcher Satz ist richtig?",
+     "opts": [
+      "Ich fahre nach Berlin morgen mit dem Zug.",
+      "Ich fahre morgen mit dem Zug nach Berlin.",
+      "Ich fahre mit dem Zug morgen nach Berlin.",
+      "Ich morgen fahre mit dem Zug nach Berlin."
+     ],
+     "a": 1
+    },
+    {
+     "q": "Welcher Satz ist richtig?",
+     "opts": [
+      "Wir essen heute im Restaurant.",
+      "Wir essen im Restaurant heute.",
+      "Heute wir essen im Restaurant.",
+      "Wir heute essen im Restaurant."
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g37",
+   "title": "Infinitive with zu and um ... zu",
+   "level": "B1",
+   "cat": "syntax",
+   "explain": "After many verbs and expressions you use zu + infinitive at the end: Ich habe keine Lust, ins Kino zu gehen. Um ... zu means in order to: Ich lerne Deutsch, um in Deutschland zu arbeiten. With separable verbs zu goes between prefix and verb (aufzustehen). Modal verbs do not take zu.",
+   "table": null,
+   "examples": [
+    [
+     "Ich habe keine Lust, heute zu arbeiten.",
+     "I do not feel like working today."
+    ],
+    [
+     "Ich lerne Deutsch, um in München zu arbeiten.",
+     "I learn German in order to work in Munich."
+    ],
+    [
+     "Es ist schwer, früh aufzustehen.",
+     "It is hard to get up early."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich lerne Deutsch, ___ in München zu arbeiten.",
+     "opts": [
+      "damit",
+      "um",
+      "weil",
+      "dass"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Es ist schwer, früh ___.",
+     "opts": [
+      "aufzustehen",
+      "zu aufstehen",
+      "aufstehen zu",
+      "auf zu stehen"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g38",
+   "title": "Relative clauses",
+   "level": "B1",
+   "cat": "syntax",
+   "explain": "A relative clause adds information about a noun. The relative pronoun takes its gender and number from the noun, but its case from its role inside the relative clause. The verb goes to the end and the clause is set off by commas.",
+   "table": {
+    "head": [
+     "Case",
+     "masc.",
+     "fem.",
+     "neut.",
+     "plural"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "der",
+      "die",
+      "das",
+      "die"
+     ],
+     [
+      "Akkusativ",
+      "den",
+      "die",
+      "das",
+      "die"
+     ],
+     [
+      "Dativ",
+      "dem",
+      "der",
+      "dem",
+      "denen"
+     ],
+     [
+      "Genitiv",
+      "dessen",
+      "deren",
+      "dessen",
+      "deren"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Das ist der Mann, der hier wohnt.",
+     "That is the man who lives here."
+    ],
+    [
+     "Das Buch, das ich lese, ist spannend.",
+     "The book I am reading is exciting."
+    ],
+    [
+     "Die Frau, der ich helfe, ist meine Nachbarin.",
+     "The woman I am helping is my neighbor."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Der Mann, ___ ich gestern gesehen habe, ist Arzt.",
+     "opts": [
+      "der",
+      "den",
+      "dem",
+      "dessen"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Die Frau, ___ ich helfe, ist nett.",
+     "opts": [
+      "die",
+      "der",
+      "den",
+      "deren"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g39",
+   "title": "Als or wenn?",
+   "level": "A2",
+   "cat": "syntax",
+   "explain": "Als is for one single event in the past: Als ich ein Kind war, wohnte ich in Italien. Wenn is for repeated events (past, present) and for the future: Wenn ich nach Hause komme, koche ich. Wenn can also mean if.",
+   "table": null,
+   "examples": [
+    [
+     "Als ich jung war, wohnte ich in Turin.",
+     "When I was young I lived in Turin."
+    ],
+    [
+     "Wenn ich nach Hause komme, koche ich.",
+     "When I get home I cook."
+    ],
+    [
+     "Wenn es regnet, bleibe ich zu Hause.",
+     "If it rains I stay at home."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "___ ich gestern nach Hause kam, war es dunkel.",
+     "opts": [
+      "Wenn",
+      "Als",
+      "Ob",
+      "Wann"
+     ],
+     "a": 1
+    },
+    {
+     "q": "___ ich Zeit habe, lese ich gern.",
+     "opts": [
+      "Als",
+      "Wann",
+      "Wenn",
+      "Ob"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g40",
+   "title": "es gibt",
+   "level": "A1",
+   "cat": "syntax",
+   "explain": "Es gibt means there is or there are. It is always followed by the accusative and the verb stays in the singular, even for plurals: Es gibt einen Park. Es gibt viele Restaurants.",
+   "table": null,
+   "examples": [
+    [
+     "Es gibt einen Park in der Nähe.",
+     "There is a park nearby."
+    ],
+    [
+     "Gibt es hier ein Café?",
+     "Is there a café here?"
+    ],
+    [
+     "Es gibt keine Milch mehr.",
+     "There is no milk left."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Es gibt ___ Supermarkt in der Nähe.",
+     "opts": [
+      "ein",
+      "einen",
+      "einem",
+      "einer"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Gibt es hier ___ Café?",
+     "opts": [
+      "ein",
+      "einen",
+      "einem",
+      "eine"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g41",
+   "title": "da- and wo- compounds",
+   "level": "B1",
+   "cat": "syntax",
+   "explain": "For things (not people), da(r)- + preposition replaces preposition + noun, and wo(r)- + preposition asks about it: Ich warte darauf. Worauf wartest du? Add -r- before vowels (darauf, woran, worüber). For people use the preposition plus pronoun: auf ihn, mit ihr.",
+   "table": null,
+   "examples": [
+    [
+     "Ich freue mich darauf.",
+     "I am looking forward to it."
+    ],
+    [
+     "Woran denkst du?",
+     "What are you thinking about?"
+    ],
+    [
+     "Worüber sprecht ihr?",
+     "What are you talking about?"
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "___ wartest du? Auf den Bus.",
+     "opts": [
+      "Wen",
+      "Worauf",
+      "Wo",
+      "Wann"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Ich freue mich ___.",
+     "opts": [
+      "darauf",
+      "dafür",
+      "daran",
+      "darüber"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g42",
+   "title": "Adjective endings after der, die, das",
+   "level": "A2",
+   "cat": "adjectives",
+   "explain": "After a definite article the adjective takes -e or -en. Nominative singular and accusative feminine/neuter: -e. Everywhere else: -en.",
+   "table": {
+    "head": [
+     "Case",
+     "masc.",
+     "fem.",
+     "neut.",
+     "plural"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "-e",
+      "-e",
+      "-e",
+      "-en"
+     ],
+     [
+      "Akkusativ",
+      "-en",
+      "-e",
+      "-e",
+      "-en"
+     ],
+     [
+      "Dativ",
+      "-en",
+      "-en",
+      "-en",
+      "-en"
+     ],
+     [
+      "Genitiv",
+      "-en",
+      "-en",
+      "-en",
+      "-en"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Der neue Kollege ist nett.",
+     "The new colleague is nice."
+    ],
+    [
+     "Ich mag den roten Mantel.",
+     "I like the red coat."
+    ],
+    [
+     "Wir wohnen in der alten Stadt.",
+     "We live in the old town."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich sehe den ___ Mann.",
+     "opts": [
+      "alte",
+      "alter",
+      "alten",
+      "altem"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Das ___ Kind spielt.",
+     "opts": [
+      "kleine",
+      "kleinen",
+      "kleiner",
+      "kleines"
+     ],
+     "a": 0
+    }
+   ]
+  },
+  {
+   "id": "g43",
+   "title": "Adjective endings after ein, kein, mein",
+   "level": "A2",
+   "cat": "adjectives",
+   "explain": "After ein, kein and possessives the adjective shows the gender where the article does not: masculine nominative -er (ein guter Film), neuter nominative and accusative -es (ein neues Handy). Everywhere else it takes -e or -en as after der.",
+   "table": {
+    "head": [
+     "Case",
+     "masc.",
+     "fem.",
+     "neut.",
+     "plural"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "-er",
+      "-e",
+      "-es",
+      "-en"
+     ],
+     [
+      "Akkusativ",
+      "-en",
+      "-e",
+      "-es",
+      "-en"
+     ],
+     [
+      "Dativ",
+      "-en",
+      "-en",
+      "-en",
+      "-en"
+     ],
+     [
+      "Genitiv",
+      "-en",
+      "-en",
+      "-en",
+      "-en"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Das ist ein guter Film.",
+     "That is a good film."
+    ],
+    [
+     "Ich habe ein neues Handy.",
+     "I have a new phone."
+    ],
+    [
+     "Sie trägt keine roten Schuhe.",
+     "She is not wearing red shoes."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Das ist ein ___ Auto.",
+     "opts": [
+      "neue",
+      "neuer",
+      "neues",
+      "neuen"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Ich kaufe einen ___ Tisch.",
+     "opts": [
+      "große",
+      "großer",
+      "großen",
+      "großem"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g44",
+   "title": "Adjective endings without an article",
+   "level": "B1",
+   "cat": "adjectives",
+   "explain": "Without an article the adjective carries the full case ending, almost the same as the definite article: kalter Kaffee, kalte Milch, kaltes Wasser. Exceptions: masculine and neuter genitive take -en.",
+   "table": {
+    "head": [
+     "Case",
+     "masc.",
+     "fem.",
+     "neut.",
+     "plural"
+    ],
+    "rows": [
+     [
+      "Nominativ",
+      "-er",
+      "-e",
+      "-es",
+      "-e"
+     ],
+     [
+      "Akkusativ",
+      "-en",
+      "-e",
+      "-es",
+      "-e"
+     ],
+     [
+      "Dativ",
+      "-em",
+      "-er",
+      "-em",
+      "-en"
+     ],
+     [
+      "Genitiv",
+      "-en",
+      "-er",
+      "-en",
+      "-er"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Kaltes Wasser ist gesund.",
+     "Cold water is healthy."
+    ],
+    [
+     "Ich trinke gern heißen Tee.",
+     "I like drinking hot tea."
+    ],
+    [
+     "Mit frischem Brot schmeckt es besser.",
+     "It tastes better with fresh bread."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Ich esse gern ___ Brot.",
+     "opts": [
+      "frisch",
+      "frische",
+      "frisches",
+      "frischen"
+     ],
+     "a": 2
+    },
+    {
+     "q": "Ich trinke ___ Kaffee.",
+     "opts": [
+      "starke",
+      "starker",
+      "starken",
+      "starkes"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g45",
+   "title": "Comparative and superlative",
+   "level": "A2",
+   "cat": "adjectives",
+   "explain": "Comparative: add -er (schnell → schneller). Superlative: am + -sten (am schnellsten). Many short adjectives get an umlaut (alt → älter → am ältesten). Irregular: gut → besser → am besten, viel → mehr → am meisten, gern → lieber → am liebsten. Compare with als, equality with so ... wie.",
+   "table": {
+    "head": [
+     "Basic",
+     "Comparative",
+     "Superlative"
+    ],
+    "rows": [
+     [
+      "schnell",
+      "schneller",
+      "am schnellsten"
+     ],
+     [
+      "alt",
+      "älter",
+      "am ältesten"
+     ],
+     [
+      "groß",
+      "größer",
+      "am größten"
+     ],
+     [
+      "gut",
+      "besser",
+      "am besten"
+     ],
+     [
+      "viel",
+      "mehr",
+      "am meisten"
+     ],
+     [
+      "gern",
+      "lieber",
+      "am liebsten"
+     ]
+    ]
+   },
+   "examples": [
+    [
+     "Mein Bruder ist älter als ich.",
+     "My brother is older than me."
+    ],
+    [
+     "Das ist das beste Essen.",
+     "That is the best meal."
+    ],
+    [
+     "Ich trinke lieber Tee als Kaffee.",
+     "I prefer tea to coffee."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Komparativ von 'gut':",
+     "opts": [
+      "guter",
+      "besser",
+      "am besten",
+      "gutter"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Wien ist ___ als Graz.",
+     "opts": [
+      "groß",
+      "größer",
+      "am größten",
+      "großer"
+     ],
+     "a": 1
+    }
+   ]
+  },
+  {
+   "id": "g46",
+   "title": "Time prepositions: um, am, im, in",
+   "level": "A1",
+   "cat": "prepositions",
+   "explain": "um + clock time (um acht Uhr). am + days, dates and parts of the day (am Montag, am Morgen, am 5. Mai). im + months and seasons (im Januar, im Sommer). in + a period from now (in zwei Stunden). seit + dative (since/for), vor + dative (ago).",
+   "table": null,
+   "examples": [
+    [
+     "Der Kurs beginnt um acht Uhr.",
+     "The course begins at eight o'clock."
+    ],
+    [
+     "Am Montag habe ich frei.",
+     "On Monday I am off."
+    ],
+    [
+     "Im Sommer fahren wir ans Meer.",
+     "In summer we go to the sea."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "___ Dienstag gehe ich zum Arzt.",
+     "opts": [
+      "Um",
+      "Am",
+      "Im",
+      "In"
+     ],
+     "a": 1
+    },
+    {
+     "q": "___ Januar ist es kalt.",
+     "opts": [
+      "Am",
+      "Um",
+      "Im",
+      "In"
+     ],
+     "a": 2
+    }
+   ]
+  },
+  {
+   "id": "g47",
+   "title": "Ordinal numbers and dates",
+   "level": "A1",
+   "cat": "numbers",
+   "explain": "Ordinals: erste, zweite, dritte, vierte ... up to 19 add -te; from 20 add -ste. They take adjective endings. For dates use der + ordinal: Heute ist der 5. Mai. For on a date use am: Am 3. Oktober.",
+   "table": null,
+   "examples": [
+    [
+     "Heute ist der fünfte Mai.",
+     "Today is the fifth of May."
+    ],
+    [
+     "Am dritten Oktober ist Feiertag.",
+     "On the third of October it is a holiday."
+    ],
+    [
+     "Mein Geburtstag ist am zwanzigsten Juli.",
+     "My birthday is on the twentieth of July."
+    ]
+   ],
+   "quiz": [
+    {
+     "q": "Heute ist der ___ Mai. (5.)",
+     "opts": [
+      "fünfte",
+      "fünfter",
+      "fünf",
+      "fünften"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Am ___ Oktober ist Feiertag. (3.)",
+     "opts": [
+      "dritte",
+      "dritten",
+      "dritter",
+      "drei"
+     ],
+     "a": 1
+    }
+   ]
+  }
+ ]
+}
