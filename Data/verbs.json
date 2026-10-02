@@ -1,0 +1,4589 @@
+{
+"fields": "present = ich, du, er/sie/es, wir, ihr, sie/Sie; preterite = same order; perfect = aux + participle",
+"verbs": [
+{
+"inf": "werden",
+"en": "to become",
+"sep": "",
+"present": [
+"werde",
+"wirst",
+"wird",
+"werden",
+"werdet",
+"werden"
+],
+"preterite": [
+"wurde",
+"wurdest",
+"wurde",
+"wurden",
+"wurdet",
+"wurden"
+],
+"aux": "sein",
+"participle": "geworden",
+"level": "A1"
+},
+{
+"inf": "haben",
+"en": "to have",
+"sep": "",
+"present": [
+"habe",
+"hast",
+"hat",
+"haben",
+"habt",
+"haben"
+],
+"preterite": [
+"hatte",
+"hattest",
+"hatte",
+"hatten",
+"hattet",
+"hatten"
+],
+"aux": "haben",
+"participle": "gehabt",
+"level": "A1"
+},
+{
+"inf": "sein",
+"en": "to be",
+"sep": "",
+"present": [
+"bin",
+"bist",
+"ist",
+"sind",
+"seid",
+"sind"
+],
+"preterite": [
+"war",
+"warst",
+"war",
+"waren",
+"wart",
+"waren"
+],
+"aux": "sein",
+"participle": "gewesen",
+"level": "A1"
+},
+{
+"inf": "können",
+"en": "can, to be able to",
+"sep": "",
+"present": [
+"kann",
+"kannst",
+"kann",
+"können",
+"könnt",
+"können"
+],
+"preterite": [
+"konnte",
+"konntest",
+"konnte",
+"konnten",
+"konntet",
+"konnten"
+],
+"aux": "haben",
+"participle": "gekonnt",
+"level": "A1"
+},
+{
+"inf": "müssen",
+"en": "must, to have to",
+"sep": "",
+"present": [
+"muss",
+"musst",
+"muss",
+"müssen",
+"müsst",
+"müssen"
+],
+"preterite": [
+"musste",
+"musstest",
+"musste",
+"mussten",
+"musstet",
+"mussten"
+],
+"aux": "haben",
+"participle": "gemusst",
+"level": "A1"
+},
+{
+"inf": "lassen",
+"en": "to let, to leave",
+"sep": "",
+"present": [
+"lasse",
+"lässt",
+"lässt",
+"lassen",
+"lasst",
+"lassen"
+],
+"preterite": [
+"ließ",
+"ließest",
+"ließ",
+"ließen",
+"ließt",
+"ließen"
+],
+"aux": "haben",
+"participle": "gelassen",
+"level": "A1"
+},
+{
+"inf": "kommen",
+"en": "to come",
+"sep": "",
+"present": [
+"komme",
+"kommst",
+"kommt",
+"kommen",
+"kommt",
+"kommen"
+],
+"preterite": [
+"kam",
+"kamst",
+"kam",
+"kamen",
+"kamt",
+"kamen"
+],
+"aux": "sein",
+"participle": "gekommen",
+"level": "A1"
+},
+{
+"inf": "ankommen",
+"en": "to arrive",
+"sep": "an",
+"present": [
+"komme an",
+"kommst an",
+"kommt an",
+"kommen an",
+"kommt an",
+"kommen an"
+],
+"preterite": [
+"kam an",
+"kamst an",
+"kam an",
+"kamen an",
+"kamt an",
+"kamen an"
+],
+"aux": "sein",
+"participle": "angekommen",
+"level": "A1"
+},
+{
+"inf": "vorkommen",
+"en": "to occur, to seem",
+"sep": "vor",
+"present": [
+"komme vor",
+"kommst vor",
+"kommt vor",
+"kommen vor",
+"kommt vor",
+"kommen vor"
+],
+"preterite": [
+"kam vor",
+"kamst vor",
+"kam vor",
+"kamen vor",
+"kamt vor",
+"kamen vor"
+],
+"aux": "sein",
+"participle": "vorgekommen",
+"level": "A1"
+},
+{
+"inf": "zurückkommen",
+"en": "to come back",
+"sep": "zurück",
+"present": [
+"komme zurück",
+"kommst zurück",
+"kommt zurück",
+"kommen zurück",
+"kommt zurück",
+"kommen zurück"
+],
+"preterite": [
+"kam zurück",
+"kamst zurück",
+"kam zurück",
+"kamen zurück",
+"kamt zurück",
+"kamen zurück"
+],
+"aux": "sein",
+"participle": "zurückgekommen",
+"level": "A1"
+},
+{
+"inf": "mitkommen",
+"en": "to come along",
+"sep": "mit",
+"present": [
+"komme mit",
+"kommst mit",
+"kommt mit",
+"kommen mit",
+"kommt mit",
+"kommen mit"
+],
+"preterite": [
+"kam mit",
+"kamst mit",
+"kam mit",
+"kamen mit",
+"kamt mit",
+"kamen mit"
+],
+"aux": "sein",
+"participle": "mitgekommen",
+"level": "A1"
+},
+{
+"inf": "wollen",
+"en": "to want",
+"sep": "",
+"present": [
+"will",
+"willst",
+"will",
+"wollen",
+"wollt",
+"wollen"
+],
+"preterite": [
+"wollte",
+"wolltest",
+"wollte",
+"wollten",
+"wolltet",
+"wollten"
+],
+"aux": "haben",
+"participle": "gewollt",
+"level": "A1"
+},
+{
+"inf": "sehen",
+"en": "to see",
+"sep": "",
+"present": [
+"sehe",
+"siehst",
+"sieht",
+"sehen",
+"seht",
+"sehen"
+],
+"preterite": [
+"sah",
+"sahst",
+"sah",
+"sahen",
+"saht",
+"sahen"
+],
+"aux": "haben",
+"participle": "gesehen",
+"level": "A1"
+},
+{
+"inf": "ansehen",
+"en": "to look at",
+"sep": "an",
+"present": [
+"sehe an",
+"siehst an",
+"sieht an",
+"sehen an",
+"seht an",
+"sehen an"
+],
+"preterite": [
+"sah an",
+"sahst an",
+"sah an",
+"sahen an",
+"saht an",
+"sahen an"
+],
+"aux": "haben",
+"participle": "angesehen",
+"level": "A1"
+},
+{
+"inf": "aussehen",
+"en": "to look (appear)",
+"sep": "aus",
+"present": [
+"sehe aus",
+"siehst aus",
+"sieht aus",
+"sehen aus",
+"seht aus",
+"sehen aus"
+],
+"preterite": [
+"sah aus",
+"sahst aus",
+"sah aus",
+"sahen aus",
+"saht aus",
+"sahen aus"
+],
+"aux": "haben",
+"participle": "ausgesehen",
+"level": "A1"
+},
+{
+"inf": "fernsehen",
+"en": "to watch TV",
+"sep": "fern",
+"present": [
+"sehe fern",
+"siehst fern",
+"sieht fern",
+"sehen fern",
+"seht fern",
+"sehen fern"
+],
+"preterite": [
+"sah fern",
+"sahst fern",
+"sah fern",
+"sahen fern",
+"saht fern",
+"sahen fern"
+],
+"aux": "haben",
+"participle": "ferngesehen",
+"level": "A1"
+},
+{
+"inf": "gehen",
+"en": "to go, to walk",
+"sep": "",
+"present": [
+"gehe",
+"gehst",
+"geht",
+"gehen",
+"geht",
+"gehen"
+],
+"preterite": [
+"ging",
+"gingst",
+"ging",
+"gingen",
+"gingt",
+"gingen"
+],
+"aux": "sein",
+"participle": "gegangen",
+"level": "A1"
+},
+{
+"inf": "ausgehen",
+"en": "to go out",
+"sep": "aus",
+"present": [
+"gehe aus",
+"gehst aus",
+"geht aus",
+"gehen aus",
+"geht aus",
+"gehen aus"
+],
+"preterite": [
+"ging aus",
+"gingst aus",
+"ging aus",
+"gingen aus",
+"gingt aus",
+"gingen aus"
+],
+"aux": "sein",
+"participle": "ausgegangen",
+"level": "A1"
+},
+{
+"inf": "weggehen",
+"en": "to go away",
+"sep": "weg",
+"present": [
+"gehe weg",
+"gehst weg",
+"geht weg",
+"gehen weg",
+"geht weg",
+"gehen weg"
+],
+"preterite": [
+"ging weg",
+"gingst weg",
+"ging weg",
+"gingen weg",
+"gingt weg",
+"gingen weg"
+],
+"aux": "sein",
+"participle": "weggegangen",
+"level": "A1"
+},
+{
+"inf": "finden",
+"en": "to find",
+"sep": "",
+"present": [
+"finde",
+"findest",
+"findet",
+"finden",
+"findet",
+"finden"
+],
+"preterite": [
+"fand",
+"fandest",
+"fand",
+"fanden",
+"fandet",
+"fanden"
+],
+"aux": "haben",
+"participle": "gefunden",
+"level": "A1"
+},
+{
+"inf": "geben",
+"en": "to give",
+"sep": "",
+"present": [
+"gebe",
+"gibst",
+"gibt",
+"geben",
+"gebt",
+"geben"
+],
+"preterite": [
+"gab",
+"gabst",
+"gab",
+"gaben",
+"gabt",
+"gaben"
+],
+"aux": "haben",
+"participle": "gegeben",
+"level": "A1"
+},
+{
+"inf": "abgeben",
+"en": "to hand in",
+"sep": "ab",
+"present": [
+"gebe ab",
+"gibst ab",
+"gibt ab",
+"geben ab",
+"gebt ab",
+"geben ab"
+],
+"preterite": [
+"gab ab",
+"gabst ab",
+"gab ab",
+"gaben ab",
+"gabt ab",
+"gaben ab"
+],
+"aux": "haben",
+"participle": "abgegeben",
+"level": "A1"
+},
+{
+"inf": "angeben",
+"en": "to state, to show off",
+"sep": "an",
+"present": [
+"gebe an",
+"gibst an",
+"gibt an",
+"geben an",
+"gebt an",
+"geben an"
+],
+"preterite": [
+"gab an",
+"gabst an",
+"gab an",
+"gaben an",
+"gabt an",
+"gaben an"
+],
+"aux": "haben",
+"participle": "angegeben",
+"level": "A1"
+},
+{
+"inf": "ausgeben",
+"en": "to spend",
+"sep": "aus",
+"present": [
+"gebe aus",
+"gibst aus",
+"gibt aus",
+"geben aus",
+"gebt aus",
+"geben aus"
+],
+"preterite": [
+"gab aus",
+"gabst aus",
+"gab aus",
+"gaben aus",
+"gabt aus",
+"gaben aus"
+],
+"aux": "haben",
+"participle": "ausgegeben",
+"level": "A1"
+},
+{
+"inf": "stattfinden",
+"en": "to take place",
+"sep": "statt",
+"present": [
+"finde statt",
+"findest statt",
+"findet statt",
+"finden statt",
+"findet statt",
+"finden statt"
+],
+"preterite": [
+"fand statt",
+"fandest statt",
+"fand statt",
+"fanden statt",
+"fandet statt",
+"fanden statt"
+],
+"aux": "haben",
+"participle": "stattgefunden",
+"level": "A1"
+},
+{
+"inf": "zurückgeben",
+"en": "to give back",
+"sep": "zurück",
+"present": [
+"gebe zurück",
+"gibst zurück",
+"gibt zurück",
+"geben zurück",
+"gebt zurück",
+"geben zurück"
+],
+"preterite": [
+"gab zurück",
+"gabst zurück",
+"gab zurück",
+"gaben zurück",
+"gabt zurück",
+"gaben zurück"
+],
+"aux": "haben",
+"participle": "zurückgegeben",
+"level": "A1"
+},
+{
+"inf": "tun",
+"en": "to do",
+"sep": "",
+"present": [
+"tue",
+"tust",
+"tut",
+"tun",
+"tut",
+"tun"
+],
+"preterite": [
+"tat",
+"tatest",
+"tat",
+"taten",
+"tatet",
+"taten"
+],
+"aux": "haben",
+"participle": "getan",
+"level": "A1"
+},
+{
+"inf": "wissen",
+"en": "to know (a fact)",
+"sep": "",
+"present": [
+"weiß",
+"weißt",
+"weiß",
+"wissen",
+"wisst",
+"wissen"
+],
+"preterite": [
+"wusste",
+"wusstest",
+"wusste",
+"wussten",
+"wusstet",
+"wussten"
+],
+"aux": "haben",
+"participle": "gewusst",
+"level": "A1"
+},
+{
+"inf": "sollen",
+"en": "should, to be supposed to",
+"sep": "",
+"present": [
+"soll",
+"sollst",
+"soll",
+"sollen",
+"sollt",
+"sollen"
+],
+"preterite": [
+"sollte",
+"solltest",
+"sollte",
+"sollten",
+"solltet",
+"sollten"
+],
+"aux": "haben",
+"participle": "gesollt",
+"level": "A1"
+},
+{
+"inf": "stehen",
+"en": "to stand",
+"sep": "",
+"present": [
+"stehe",
+"stehst",
+"steht",
+"stehen",
+"steht",
+"stehen"
+],
+"preterite": [
+"stand",
+"standest",
+"stand",
+"standen",
+"standet",
+"standen"
+],
+"aux": "haben",
+"participle": "gestanden",
+"level": "A1"
+},
+{
+"inf": "aufstehen",
+"en": "to get up",
+"sep": "auf",
+"present": [
+"stehe auf",
+"stehst auf",
+"steht auf",
+"stehen auf",
+"steht auf",
+"stehen auf"
+],
+"preterite": [
+"stand auf",
+"standest auf",
+"stand auf",
+"standen auf",
+"standet auf",
+"standen auf"
+],
+"aux": "sein",
+"participle": "aufgestanden",
+"level": "A1"
+},
+{
+"inf": "nehmen",
+"en": "to take",
+"sep": "",
+"present": [
+"nehme",
+"nimmst",
+"nimmt",
+"nehmen",
+"nehmt",
+"nehmen"
+],
+"preterite": [
+"nahm",
+"nahmst",
+"nahm",
+"nahmen",
+"nahmt",
+"nahmen"
+],
+"aux": "haben",
+"participle": "genommen",
+"level": "A1"
+},
+{
+"inf": "abnehmen",
+"en": "to lose weight, to take off",
+"sep": "ab",
+"present": [
+"nehme ab",
+"nimmst ab",
+"nimmt ab",
+"nehmen ab",
+"nehmt ab",
+"nehmen ab"
+],
+"preterite": [
+"nahm ab",
+"nahmst ab",
+"nahm ab",
+"nahmen ab",
+"nahmt ab",
+"nahmen ab"
+],
+"aux": "haben",
+"participle": "abgenommen",
+"level": "A1"
+},
+{
+"inf": "aufnehmen",
+"en": "to record, to take in",
+"sep": "auf",
+"present": [
+"nehme auf",
+"nimmst auf",
+"nimmt auf",
+"nehmen auf",
+"nehmt auf",
+"nehmen auf"
+],
+"preterite": [
+"nahm auf",
+"nahmst auf",
+"nahm auf",
+"nahmen auf",
+"nahmt auf",
+"nahmen auf"
+],
+"aux": "haben",
+"participle": "aufgenommen",
+"level": "A1"
+},
+{
+"inf": "einnehmen",
+"en": "to take (in)",
+"sep": "ein",
+"present": [
+"nehme ein",
+"nimmst ein",
+"nimmt ein",
+"nehmen ein",
+"nehmt ein",
+"nehmen ein"
+],
+"preterite": [
+"nahm ein",
+"nahmst ein",
+"nahm ein",
+"nahmen ein",
+"nahmt ein",
+"nahmen ein"
+],
+"aux": "haben",
+"participle": "eingenommen",
+"level": "A1"
+},
+{
+"inf": "teilnehmen",
+"en": "to take part",
+"sep": "teil",
+"present": [
+"nehme teil",
+"nimmst teil",
+"nimmt teil",
+"nehmen teil",
+"nehmt teil",
+"nehmen teil"
+],
+"preterite": [
+"nahm teil",
+"nahmst teil",
+"nahm teil",
+"nahmen teil",
+"nahmt teil",
+"nahmen teil"
+],
+"aux": "haben",
+"participle": "teilgenommen",
+"level": "A1"
+},
+{
+"inf": "zunehmen",
+"en": "to increase",
+"sep": "zu",
+"present": [
+"nehme zu",
+"nimmst zu",
+"nimmt zu",
+"nehmen zu",
+"nehmt zu",
+"nehmen zu"
+],
+"preterite": [
+"nahm zu",
+"nahmst zu",
+"nahm zu",
+"nahmen zu",
+"nahmt zu",
+"nahmen zu"
+],
+"aux": "haben",
+"participle": "zugenommen",
+"level": "A1"
+},
+{
+"inf": "mitnehmen",
+"en": "to take along",
+"sep": "mit",
+"present": [
+"nehme mit",
+"nimmst mit",
+"nimmt mit",
+"nehmen mit",
+"nehmt mit",
+"nehmen mit"
+],
+"preterite": [
+"nahm mit",
+"nahmst mit",
+"nahm mit",
+"nahmen mit",
+"nahmt mit",
+"nahmen mit"
+],
+"aux": "haben",
+"participle": "mitgenommen",
+"level": "A1"
+},
+{
+"inf": "bekommen",
+"en": "to get, to receive",
+"sep": "",
+"present": [
+"bekomme",
+"bekommst",
+"bekommt",
+"bekommen",
+"bekommt",
+"bekommen"
+],
+"preterite": [
+"bekam",
+"bekamst",
+"bekam",
+"bekamen",
+"bekamt",
+"bekamen"
+],
+"aux": "haben",
+"participle": "bekommen",
+"level": "A1"
+},
+{
+"inf": "unternehmen",
+"en": "to undertake",
+"sep": "",
+"present": [
+"unternehme",
+"unternimmst",
+"unternimmt",
+"unternehmen",
+"unternehmt",
+"unternehmen"
+],
+"preterite": [
+"unternahm",
+"unternahmst",
+"unternahm",
+"unternahmen",
+"unternahmt",
+"unternahmen"
+],
+"aux": "haben",
+"participle": "unternommen",
+"level": "A1"
+},
+{
+"inf": "bleiben",
+"en": "to stay",
+"sep": "",
+"present": [
+"bleibe",
+"bleibst",
+"bleibt",
+"bleiben",
+"bleibt",
+"bleiben"
+],
+"preterite": [
+"blieb",
+"bliebst",
+"blieb",
+"blieben",
+"bliebt",
+"blieben"
+],
+"aux": "sein",
+"participle": "geblieben",
+"level": "A1"
+},
+{
+"inf": "halten",
+"en": "to hold, to stop",
+"sep": "",
+"present": [
+"halte",
+"hältst",
+"hält",
+"halten",
+"haltet",
+"halten"
+],
+"preterite": [
+"hielt",
+"hieltest",
+"hielt",
+"hielten",
+"hieltet",
+"hielten"
+],
+"aux": "haben",
+"participle": "gehalten",
+"level": "A1"
+},
+{
+"inf": "aufhalten",
+"en": "to hold up, to delay",
+"sep": "auf",
+"present": [
+"halte auf",
+"hältst auf",
+"hält auf",
+"halten auf",
+"haltet auf",
+"halten auf"
+],
+"preterite": [
+"hielt auf",
+"hieltest auf",
+"hielt auf",
+"hielten auf",
+"hieltet auf",
+"hielten auf"
+],
+"aux": "haben",
+"participle": "aufgehalten",
+"level": "A1"
+},
+{
+"inf": "festhalten",
+"en": "to hold on to",
+"sep": "fest",
+"present": [
+"halte fest",
+"hältst fest",
+"hält fest",
+"halten fest",
+"haltet fest",
+"halten fest"
+],
+"preterite": [
+"hielt fest",
+"hieltest fest",
+"hielt fest",
+"hielten fest",
+"hieltet fest",
+"hielten fest"
+],
+"aux": "haben",
+"participle": "festgehalten",
+"level": "A1"
+},
+{
+"inf": "essen",
+"en": "to eat",
+"sep": "",
+"present": [
+"esse",
+"isst",
+"isst",
+"essen",
+"esst",
+"essen"
+],
+"preterite": [
+"aß",
+"aßest",
+"aß",
+"aßen",
+"aßt",
+"aßen"
+],
+"aux": "haben",
+"participle": "gegessen",
+"level": "A1"
+},
+{
+"inf": "erhalten",
+"en": "to receive",
+"sep": "",
+"present": [
+"erhalte",
+"erhältst",
+"erhält",
+"erhalten",
+"erhaltet",
+"erhalten"
+],
+"preterite": [
+"erhielt",
+"erhieltest",
+"erhielt",
+"erhielten",
+"erhieltet",
+"erhielten"
+],
+"aux": "haben",
+"participle": "erhalten",
+"level": "A1"
+},
+{
+"inf": "bringen",
+"en": "to bring",
+"sep": "",
+"present": [
+"bringe",
+"bringst",
+"bringt",
+"bringen",
+"bringt",
+"bringen"
+],
+"preterite": [
+"brachte",
+"brachtest",
+"brachte",
+"brachten",
+"brachtet",
+"brachten"
+],
+"aux": "haben",
+"participle": "gebracht",
+"level": "A1"
+},
+{
+"inf": "mitbringen",
+"en": "to bring along",
+"sep": "mit",
+"present": [
+"bringe mit",
+"bringst mit",
+"bringt mit",
+"bringen mit",
+"bringt mit",
+"bringen mit"
+],
+"preterite": [
+"brachte mit",
+"brachtest mit",
+"brachte mit",
+"brachten mit",
+"brachtet mit",
+"brachten mit"
+],
+"aux": "haben",
+"participle": "mitgebracht",
+"level": "A1"
+},
+{
+"inf": "schreiben",
+"en": "to write",
+"sep": "",
+"present": [
+"schreibe",
+"schreibst",
+"schreibt",
+"schreiben",
+"schreibt",
+"schreiben"
+],
+"preterite": [
+"schrieb",
+"schriebst",
+"schrieb",
+"schrieben",
+"schriebt",
+"schrieben"
+],
+"aux": "haben",
+"participle": "geschrieben",
+"level": "A1"
+},
+{
+"inf": "treffen",
+"en": "to meet",
+"sep": "",
+"present": [
+"treffe",
+"triffst",
+"trifft",
+"treffen",
+"trefft",
+"treffen"
+],
+"preterite": [
+"traf",
+"trafst",
+"traf",
+"trafen",
+"traft",
+"trafen"
+],
+"aux": "haben",
+"participle": "getroffen",
+"level": "A1"
+},
+{
+"inf": "aufschreiben",
+"en": "to write down",
+"sep": "auf",
+"present": [
+"schreibe auf",
+"schreibst auf",
+"schreibt auf",
+"schreiben auf",
+"schreibt auf",
+"schreiben auf"
+],
+"preterite": [
+"schrieb auf",
+"schriebst auf",
+"schrieb auf",
+"schrieben auf",
+"schriebt auf",
+"schrieben auf"
+],
+"aux": "haben",
+"participle": "aufgeschrieben",
+"level": "A1"
+},
+{
+"inf": "denken",
+"en": "to think",
+"sep": "",
+"present": [
+"denke",
+"denkst",
+"denkt",
+"denken",
+"denkt",
+"denken"
+],
+"preterite": [
+"dachte",
+"dachtest",
+"dachte",
+"dachten",
+"dachtet",
+"dachten"
+],
+"aux": "haben",
+"participle": "gedacht",
+"level": "A1"
+},
+{
+"inf": "lesen",
+"en": "to read",
+"sep": "",
+"present": [
+"lese",
+"liest",
+"liest",
+"lesen",
+"lest",
+"lesen"
+],
+"preterite": [
+"las",
+"lasest",
+"las",
+"lasen",
+"last",
+"lasen"
+],
+"aux": "haben",
+"participle": "gelesen",
+"level": "A1"
+},
+{
+"inf": "vorlesen",
+"en": "to read aloud",
+"sep": "vor",
+"present": [
+"lese vor",
+"liest vor",
+"liest vor",
+"lesen vor",
+"lest vor",
+"lesen vor"
+],
+"preterite": [
+"las vor",
+"lasest vor",
+"las vor",
+"lasen vor",
+"last vor",
+"lasen vor"
+],
+"aux": "haben",
+"participle": "vorgelesen",
+"level": "A1"
+},
+{
+"inf": "nachdenken",
+"en": "to think about",
+"sep": "nach",
+"present": [
+"denke nach",
+"denkst nach",
+"denkt nach",
+"denken nach",
+"denkt nach",
+"denken nach"
+],
+"preterite": [
+"dachte nach",
+"dachtest nach",
+"dachte nach",
+"dachten nach",
+"dachtet nach",
+"dachten nach"
+],
+"aux": "haben",
+"participle": "nachgedacht",
+"level": "A1"
+},
+{
+"inf": "dürfen",
+"en": "may, to be allowed to",
+"sep": "",
+"present": [
+"darf",
+"darfst",
+"darf",
+"dürfen",
+"dürft",
+"dürfen"
+],
+"preterite": [
+"durfte",
+"durftest",
+"durfte",
+"durften",
+"durftet",
+"durften"
+],
+"aux": "haben",
+"participle": "gedurft",
+"level": "A1"
+},
+{
+"inf": "fahren",
+"en": "to drive, to go (by vehicle)",
+"sep": "",
+"present": [
+"fahre",
+"fährst",
+"fährt",
+"fahren",
+"fahrt",
+"fahren"
+],
+"preterite": [
+"fuhr",
+"fuhrst",
+"fuhr",
+"fuhren",
+"fuhrt",
+"fuhren"
+],
+"aux": "sein",
+"participle": "gefahren",
+"level": "A1"
+},
+{
+"inf": "liegen",
+"en": "to lie, to be lying",
+"sep": "",
+"present": [
+"liege",
+"liegst",
+"liegt",
+"liegen",
+"liegt",
+"liegen"
+],
+"preterite": [
+"lag",
+"lagst",
+"lag",
+"lagen",
+"lagt",
+"lagen"
+],
+"aux": "haben",
+"participle": "gelegen",
+"level": "A1"
+},
+{
+"inf": "abfahren",
+"en": "to depart",
+"sep": "ab",
+"present": [
+"fahre ab",
+"fährst ab",
+"fährt ab",
+"fahren ab",
+"fahrt ab",
+"fahren ab"
+],
+"preterite": [
+"fuhr ab",
+"fuhrst ab",
+"fuhr ab",
+"fuhren ab",
+"fuhrt ab",
+"fuhren ab"
+],
+"aux": "sein",
+"participle": "abgefahren",
+"level": "A1"
+},
+{
+"inf": "losfahren",
+"en": "to set off",
+"sep": "los",
+"present": [
+"fahre los",
+"fährst los",
+"fährt los",
+"fahren los",
+"fahrt los",
+"fahren los"
+],
+"preterite": [
+"fuhr los",
+"fuhrst los",
+"fuhr los",
+"fuhren los",
+"fuhrt los",
+"fuhren los"
+],
+"aux": "sein",
+"participle": "losgefahren",
+"level": "A1"
+},
+{
+"inf": "helfen",
+"en": "to help",
+"sep": "",
+"present": [
+"helfe",
+"hilfst",
+"hilft",
+"helfen",
+"helft",
+"helfen"
+],
+"preterite": [
+"half",
+"halfst",
+"half",
+"halfen",
+"halft",
+"halfen"
+],
+"aux": "haben",
+"participle": "geholfen",
+"level": "A1"
+},
+{
+"inf": "verstehen",
+"en": "to understand",
+"sep": "",
+"present": [
+"verstehe",
+"verstehst",
+"versteht",
+"verstehen",
+"versteht",
+"verstehen"
+],
+"preterite": [
+"verstand",
+"verstandest",
+"verstand",
+"verstanden",
+"verstandet",
+"verstanden"
+],
+"aux": "haben",
+"participle": "verstanden",
+"level": "A1"
+},
+{
+"inf": "vergessen",
+"en": "to forget",
+"sep": "",
+"present": [
+"vergesse",
+"vergisst",
+"vergisst",
+"vergessen",
+"vergesst",
+"vergessen"
+],
+"preterite": [
+"vergaß",
+"vergaßest",
+"vergaß",
+"vergaßen",
+"vergaßt",
+"vergaßen"
+],
+"aux": "haben",
+"participle": "vergessen",
+"level": "A1"
+},
+{
+"inf": "aussprechen",
+"en": "to pronounce",
+"sep": "aus",
+"present": [
+"spreche aus",
+"sprichst aus",
+"spricht aus",
+"sprechen aus",
+"sprecht aus",
+"sprechen aus"
+],
+"preterite": [
+"sprach aus",
+"sprachst aus",
+"sprach aus",
+"sprachen aus",
+"spracht aus",
+"sprachen aus"
+],
+"aux": "haben",
+"participle": "ausgesprochen",
+"level": "A1"
+},
+{
+"inf": "ansprechen",
+"en": "to address",
+"sep": "an",
+"present": [
+"spreche an",
+"sprichst an",
+"spricht an",
+"sprechen an",
+"sprecht an",
+"sprechen an"
+],
+"preterite": [
+"sprach an",
+"sprachst an",
+"sprach an",
+"sprachen an",
+"spracht an",
+"sprachen an"
+],
+"aux": "haben",
+"participle": "angesprochen",
+"level": "A1"
+},
+{
+"inf": "kennen",
+"en": "to know (a person)",
+"sep": "",
+"present": [
+"kenne",
+"kennst",
+"kennt",
+"kennen",
+"kennt",
+"kennen"
+],
+"preterite": [
+"kannte",
+"kanntest",
+"kannte",
+"kannten",
+"kanntet",
+"kannten"
+],
+"aux": "haben",
+"participle": "gekannt",
+"level": "A1"
+},
+{
+"inf": "laufen",
+"en": "to run, to walk",
+"sep": "",
+"present": [
+"laufe",
+"läufst",
+"läuft",
+"laufen",
+"lauft",
+"laufen"
+],
+"preterite": [
+"lief",
+"liefst",
+"lief",
+"liefen",
+"lieft",
+"liefen"
+],
+"aux": "sein",
+"participle": "gelaufen",
+"level": "A1"
+},
+{
+"inf": "ziehen",
+"en": "to pull, to move",
+"sep": "",
+"present": [
+"ziehe",
+"ziehst",
+"zieht",
+"ziehen",
+"zieht",
+"ziehen"
+],
+"preterite": [
+"zog",
+"zogst",
+"zog",
+"zogen",
+"zogt",
+"zogen"
+],
+"aux": "haben",
+"participle": "gezogen",
+"level": "A1"
+},
+{
+"inf": "anziehen",
+"en": "to put on, to dress",
+"sep": "an",
+"present": [
+"ziehe an",
+"ziehst an",
+"zieht an",
+"ziehen an",
+"zieht an",
+"ziehen an"
+],
+"preterite": [
+"zog an",
+"zogst an",
+"zog an",
+"zogen an",
+"zogt an",
+"zogen an"
+],
+"aux": "haben",
+"participle": "angezogen",
+"level": "A1"
+},
+{
+"inf": "ausziehen",
+"en": "to move out, to undress",
+"sep": "aus",
+"present": [
+"ziehe aus",
+"ziehst aus",
+"zieht aus",
+"ziehen aus",
+"zieht aus",
+"ziehen aus"
+],
+"preterite": [
+"zog aus",
+"zogst aus",
+"zog aus",
+"zogen aus",
+"zogt aus",
+"zogen aus"
+],
+"aux": "sein",
+"participle": "ausgezogen",
+"level": "A1"
+},
+{
+"inf": "einziehen",
+"en": "to move in",
+"sep": "ein",
+"present": [
+"ziehe ein",
+"ziehst ein",
+"zieht ein",
+"ziehen ein",
+"zieht ein",
+"ziehen ein"
+],
+"preterite": [
+"zog ein",
+"zogst ein",
+"zog ein",
+"zogen ein",
+"zogt ein",
+"zogen ein"
+],
+"aux": "sein",
+"participle": "eingezogen",
+"level": "A1"
+},
+{
+"inf": "tragen",
+"en": "to carry, to wear",
+"sep": "",
+"present": [
+"trage",
+"trägst",
+"trägt",
+"tragen",
+"tragt",
+"tragen"
+],
+"preterite": [
+"trug",
+"trugst",
+"trug",
+"trugen",
+"trugt",
+"trugen"
+],
+"aux": "haben",
+"participle": "getragen",
+"level": "A1"
+},
+{
+"inf": "gewinnen",
+"en": "to win",
+"sep": "",
+"present": [
+"gewinne",
+"gewinnst",
+"gewinnt",
+"gewinnen",
+"gewinnt",
+"gewinnen"
+],
+"preterite": [
+"gewann",
+"gewannst",
+"gewann",
+"gewannen",
+"gewannt",
+"gewannen"
+],
+"aux": "haben",
+"participle": "gewonnen",
+"level": "A1"
+},
+{
+"inf": "gefallen",
+"en": "to please, to like",
+"sep": "",
+"present": [
+"gefalle",
+"gefällst",
+"gefällt",
+"gefallen",
+"gefallt",
+"gefallen"
+],
+"preterite": [
+"gefiel",
+"gefielst",
+"gefiel",
+"gefielen",
+"gefielt",
+"gefielen"
+],
+"aux": "haben",
+"participle": "gefallen",
+"level": "A2"
+},
+{
+"inf": "fallen",
+"en": "to fall",
+"sep": "",
+"present": [
+"falle",
+"fällst",
+"fällt",
+"fallen",
+"fallt",
+"fallen"
+],
+"preterite": [
+"fiel",
+"fielst",
+"fiel",
+"fielen",
+"fielt",
+"fielen"
+],
+"aux": "sein",
+"participle": "gefallen",
+"level": "A2"
+},
+{
+"inf": "verlassen",
+"en": "to leave",
+"sep": "",
+"present": [
+"verlasse",
+"verlässt",
+"verlässt",
+"verlassen",
+"verlasst",
+"verlassen"
+],
+"preterite": [
+"verließ",
+"verließest",
+"verließ",
+"verließen",
+"verließt",
+"verließen"
+],
+"aux": "haben",
+"participle": "verlassen",
+"level": "A2"
+},
+{
+"inf": "einfallen",
+"en": "to occur to",
+"sep": "ein",
+"present": [
+"falle ein",
+"fällst ein",
+"fällt ein",
+"fallen ein",
+"fallt ein",
+"fallen ein"
+],
+"preterite": [
+"fiel ein",
+"fielst ein",
+"fiel ein",
+"fielen ein",
+"fielt ein",
+"fielen ein"
+],
+"aux": "sein",
+"participle": "eingefallen",
+"level": "A2"
+},
+{
+"inf": "ausfallen",
+"en": "to be cancelled",
+"sep": "aus",
+"present": [
+"falle aus",
+"fällst aus",
+"fällt aus",
+"fallen aus",
+"fallt aus",
+"fallen aus"
+],
+"preterite": [
+"fiel aus",
+"fielst aus",
+"fiel aus",
+"fielen aus",
+"fielt aus",
+"fielen aus"
+],
+"aux": "sein",
+"participle": "ausgefallen",
+"level": "A2"
+},
+{
+"inf": "auffallen",
+"en": "to stand out",
+"sep": "auf",
+"present": [
+"falle auf",
+"fällst auf",
+"fällt auf",
+"fallen auf",
+"fallt auf",
+"fallen auf"
+],
+"preterite": [
+"fiel auf",
+"fielst auf",
+"fiel auf",
+"fielen auf",
+"fielt auf",
+"fielen auf"
+],
+"aux": "sein",
+"participle": "aufgefallen",
+"level": "A2"
+},
+{
+"inf": "entscheiden",
+"en": "to decide",
+"sep": "",
+"present": [
+"entscheide",
+"entscheidest",
+"entscheidet",
+"entscheiden",
+"entscheidet",
+"entscheiden"
+],
+"preterite": [
+"entschied",
+"entschiedest",
+"entschied",
+"entschieden",
+"entschiedet",
+"entschieden"
+],
+"aux": "haben",
+"participle": "entschieden",
+"level": "A2"
+},
+{
+"inf": "nennen",
+"en": "to name, to call",
+"sep": "",
+"present": [
+"nenne",
+"nennst",
+"nennt",
+"nennen",
+"nennt",
+"nennen"
+],
+"preterite": [
+"nannte",
+"nanntest",
+"nannte",
+"nannten",
+"nanntet",
+"nannten"
+],
+"aux": "haben",
+"participle": "genannt",
+"level": "A2"
+},
+{
+"inf": "erfahren",
+"en": "to learn, to find out",
+"sep": "",
+"present": [
+"erfahre",
+"erfährst",
+"erfährt",
+"erfahren",
+"erfahrt",
+"erfahren"
+],
+"preterite": [
+"erfuhr",
+"erfuhrst",
+"erfuhr",
+"erfuhren",
+"erfuhrt",
+"erfuhren"
+],
+"aux": "haben",
+"participle": "erfahren",
+"level": "A2"
+},
+{
+"inf": "sitzen",
+"en": "to sit",
+"sep": "",
+"present": [
+"sitze",
+"sitzt",
+"sitzt",
+"sitzen",
+"sitzt",
+"sitzen"
+],
+"preterite": [
+"saß",
+"saßest",
+"saß",
+"saßen",
+"saßt",
+"saßen"
+],
+"aux": "haben",
+"participle": "gesessen",
+"level": "A2"
+},
+{
+"inf": "einladen",
+"en": "to invite",
+"sep": "ein",
+"present": [
+"lade ein",
+"lädst ein",
+"lädt ein",
+"laden ein",
+"ladet ein",
+"laden ein"
+],
+"preterite": [
+"lud ein",
+"ludest ein",
+"lud ein",
+"luden ein",
+"ludet ein",
+"luden ein"
+],
+"aux": "haben",
+"participle": "eingeladen",
+"level": "A2"
+},
+{
+"inf": "heißen",
+"en": "to be called",
+"sep": "",
+"present": [
+"heiße",
+"heißt",
+"heißt",
+"heißen",
+"heißt",
+"heißen"
+],
+"preterite": [
+"hieß",
+"hießest",
+"hieß",
+"hießen",
+"hießt",
+"hießen"
+],
+"aux": "haben",
+"participle": "geheißen",
+"level": "A2"
+},
+{
+"inf": "schlafen",
+"en": "to sleep",
+"sep": "",
+"present": [
+"schlafe",
+"schläfst",
+"schläft",
+"schlafen",
+"schlaft",
+"schlafen"
+],
+"preterite": [
+"schlief",
+"schliefst",
+"schlief",
+"schliefen",
+"schlieft",
+"schliefen"
+],
+"aux": "haben",
+"participle": "geschlafen",
+"level": "A2"
+},
+{
+"inf": "einschlafen",
+"en": "to fall asleep",
+"sep": "ein",
+"present": [
+"schlafe ein",
+"schläfst ein",
+"schläft ein",
+"schlafen ein",
+"schlaft ein",
+"schlafen ein"
+],
+"preterite": [
+"schlief ein",
+"schliefst ein",
+"schlief ein",
+"schliefen ein",
+"schlieft ein",
+"schliefen ein"
+],
+"aux": "sein",
+"participle": "eingeschlafen",
+"level": "A2"
+},
+{
+"inf": "bieten",
+"en": "to offer",
+"sep": "",
+"present": [
+"biete",
+"bietest",
+"bietet",
+"bieten",
+"bietet",
+"bieten"
+],
+"preterite": [
+"bot",
+"botest",
+"bot",
+"boten",
+"botet",
+"boten"
+],
+"aux": "haben",
+"participle": "geboten",
+"level": "A2"
+},
+{
+"inf": "sterben",
+"en": "to die",
+"sep": "",
+"present": [
+"sterbe",
+"stirbst",
+"stirbt",
+"sterben",
+"sterbt",
+"sterben"
+],
+"preterite": [
+"starb",
+"starbst",
+"starb",
+"starben",
+"starbt",
+"starben"
+],
+"aux": "sein",
+"participle": "gestorben",
+"level": "A2"
+},
+{
+"inf": "anbieten",
+"en": "to offer",
+"sep": "an",
+"present": [
+"biete an",
+"bietest an",
+"bietet an",
+"bieten an",
+"bietet an",
+"bieten an"
+],
+"preterite": [
+"bot an",
+"botest an",
+"bot an",
+"boten an",
+"botet an",
+"boten an"
+],
+"aux": "haben",
+"participle": "angeboten",
+"level": "A2"
+},
+{
+"inf": "gelten",
+"en": "to be valid",
+"sep": "",
+"present": [
+"gelte",
+"giltst",
+"gilt",
+"gelten",
+"geltet",
+"gelten"
+],
+"preterite": [
+"galt",
+"galtest",
+"galt",
+"galten",
+"galtet",
+"galten"
+],
+"aux": "haben",
+"participle": "gegolten",
+"level": "A2"
+},
+{
+"inf": "verlieren",
+"en": "to lose",
+"sep": "",
+"present": [
+"verliere",
+"verlierst",
+"verliert",
+"verlieren",
+"verliert",
+"verlieren"
+],
+"preterite": [
+"verlor",
+"verlorst",
+"verlor",
+"verloren",
+"verlort",
+"verloren"
+],
+"aux": "haben",
+"participle": "verloren",
+"level": "A2"
+},
+{
+"inf": "rennen",
+"en": "to run",
+"sep": "",
+"present": [
+"renne",
+"rennst",
+"rennt",
+"rennen",
+"rennt",
+"rennen"
+],
+"preterite": [
+"rannte",
+"ranntest",
+"rannte",
+"rannten",
+"ranntet",
+"rannten"
+],
+"aux": "sein",
+"participle": "gerannt",
+"level": "A2"
+},
+{
+"inf": "vertreten",
+"en": "to represent",
+"sep": "",
+"present": [
+"vertrete",
+"vertrittst",
+"vertritt",
+"vertreten",
+"vertretet",
+"vertreten"
+],
+"preterite": [
+"vertrat",
+"vertratest",
+"vertrat",
+"vertraten",
+"vertratet",
+"vertraten"
+],
+"aux": "haben",
+"participle": "vertreten",
+"level": "A2"
+},
+{
+"inf": "geschehen",
+"en": "to happen",
+"sep": "",
+"present": [
+"geschehe",
+"geschiehst",
+"geschieht",
+"geschehen",
+"gescheht",
+"geschehen"
+],
+"preterite": [
+"geschah",
+"geschahst",
+"geschah",
+"geschahen",
+"geschaht",
+"geschahen"
+],
+"aux": "sein",
+"participle": "geschehen",
+"level": "A2"
+},
+{
+"inf": "trinken",
+"en": "to drink",
+"sep": "",
+"present": [
+"trinke",
+"trinkst",
+"trinkt",
+"trinken",
+"trinkt",
+"trinken"
+],
+"preterite": [
+"trank",
+"trankst",
+"trank",
+"tranken",
+"trankt",
+"tranken"
+],
+"aux": "haben",
+"participle": "getrunken",
+"level": "A2"
+},
+{
+"inf": "entstehen",
+"en": "to arise",
+"sep": "",
+"present": [
+"entstehe",
+"entstehst",
+"entsteht",
+"entstehen",
+"entsteht",
+"entstehen"
+],
+"preterite": [
+"entstand",
+"entstandest",
+"entstand",
+"entstanden",
+"entstandet",
+"entstanden"
+],
+"aux": "sein",
+"participle": "entstanden",
+"level": "A2"
+},
+{
+"inf": "schließen",
+"en": "to close",
+"sep": "",
+"present": [
+"schließe",
+"schließt",
+"schließt",
+"schließen",
+"schließt",
+"schließen"
+],
+"preterite": [
+"schloss",
+"schlossest",
+"schloss",
+"schlossen",
+"schlosst",
+"schlossen"
+],
+"aux": "haben",
+"participle": "geschlossen",
+"level": "A2"
+},
+{
+"inf": "anschließen",
+"en": "to connect",
+"sep": "an",
+"present": [
+"schließe an",
+"schließt an",
+"schließt an",
+"schließen an",
+"schließt an",
+"schließen an"
+],
+"preterite": [
+"schloss an",
+"schlossest an",
+"schloss an",
+"schlossen an",
+"schlosst an",
+"schlossen an"
+],
+"aux": "haben",
+"participle": "angeschlossen",
+"level": "A2"
+},
+{
+"inf": "ausschließen",
+"en": "to exclude",
+"sep": "aus",
+"present": [
+"schließe aus",
+"schließt aus",
+"schließt aus",
+"schließen aus",
+"schließt aus",
+"schließen aus"
+],
+"preterite": [
+"schloss aus",
+"schlossest aus",
+"schloss aus",
+"schlossen aus",
+"schlosst aus",
+"schlossen aus"
+],
+"aux": "haben",
+"participle": "ausgeschlossen",
+"level": "A2"
+},
+{
+"inf": "enthalten",
+"en": "to contain",
+"sep": "",
+"present": [
+"enthalte",
+"enthältst",
+"enthält",
+"enthalten",
+"enthaltet",
+"enthalten"
+],
+"preterite": [
+"enthielt",
+"enthieltest",
+"enthielt",
+"enthielten",
+"enthieltet",
+"enthielten"
+],
+"aux": "haben",
+"participle": "enthalten",
+"level": "A2"
+},
+{
+"inf": "treten",
+"en": "to step, to kick",
+"sep": "",
+"present": [
+"trete",
+"trittst",
+"tritt",
+"treten",
+"tretet",
+"treten"
+],
+"preterite": [
+"trat",
+"tratest",
+"trat",
+"traten",
+"tratet",
+"traten"
+],
+"aux": "sein",
+"participle": "getreten",
+"level": "A2"
+},
+{
+"inf": "eintreten",
+"en": "to enter",
+"sep": "ein",
+"present": [
+"trete ein",
+"trittst ein",
+"tritt ein",
+"treten ein",
+"tretet ein",
+"treten ein"
+],
+"preterite": [
+"trat ein",
+"tratest ein",
+"trat ein",
+"traten ein",
+"tratet ein",
+"traten ein"
+],
+"aux": "sein",
+"participle": "eingetreten",
+"level": "A2"
+},
+{
+"inf": "auftreten",
+"en": "to appear, to perform",
+"sep": "auf",
+"present": [
+"trete auf",
+"trittst auf",
+"tritt auf",
+"treten auf",
+"tretet auf",
+"treten auf"
+],
+"preterite": [
+"trat auf",
+"tratest auf",
+"trat auf",
+"traten auf",
+"tratet auf",
+"traten auf"
+],
+"aux": "sein",
+"participle": "aufgetreten",
+"level": "A2"
+},
+{
+"inf": "mögen",
+"en": "to like",
+"sep": "",
+"present": [
+"mag",
+"magst",
+"mag",
+"mögen",
+"mögt",
+"mögen"
+],
+"preterite": [
+"mochte",
+"mochtest",
+"mochte",
+"mochten",
+"mochtet",
+"mochten"
+],
+"aux": "haben",
+"participle": "gemocht",
+"level": "A2"
+},
+{
+"inf": "beginnen",
+"en": "to begin",
+"sep": "",
+"present": [
+"beginne",
+"beginnst",
+"beginnt",
+"beginnen",
+"beginnt",
+"beginnen"
+],
+"preterite": [
+"begann",
+"begannst",
+"begann",
+"begannen",
+"begannt",
+"begannen"
+],
+"aux": "haben",
+"participle": "begonnen",
+"level": "A2"
+},
+{
+"inf": "leiden",
+"en": "to suffer",
+"sep": "",
+"present": [
+"leide",
+"leidest",
+"leidet",
+"leiden",
+"leidet",
+"leiden"
+],
+"preterite": [
+"litt",
+"littest",
+"litt",
+"litten",
+"littet",
+"litten"
+],
+"aux": "haben",
+"participle": "gelitten",
+"level": "A2"
+},
+{
+"inf": "empfehlen",
+"en": "to recommend",
+"sep": "",
+"present": [
+"empfehle",
+"empfiehlst",
+"empfiehlt",
+"empfehlen",
+"empfehlt",
+"empfehlen"
+],
+"preterite": [
+"empfahl",
+"empfahlst",
+"empfahl",
+"empfahlen",
+"empfahlt",
+"empfahlen"
+],
+"aux": "haben",
+"participle": "empfohlen",
+"level": "A2"
+},
+{
+"inf": "fliegen",
+"en": "to fly",
+"sep": "",
+"present": [
+"fliege",
+"fliegst",
+"fliegt",
+"fliegen",
+"fliegt",
+"fliegen"
+],
+"preterite": [
+"flog",
+"flogst",
+"flog",
+"flogen",
+"flogt",
+"flogen"
+],
+"aux": "sein",
+"participle": "geflogen",
+"level": "A2"
+},
+{
+"inf": "schlagen",
+"en": "to hit, to beat",
+"sep": "",
+"present": [
+"schlage",
+"schlägst",
+"schlägt",
+"schlagen",
+"schlagt",
+"schlagen"
+],
+"preterite": [
+"schlug",
+"schlugst",
+"schlug",
+"schlugen",
+"schlugt",
+"schlugen"
+],
+"aux": "haben",
+"participle": "geschlagen",
+"level": "A2"
+},
+{
+"inf": "vorschlagen",
+"en": "to suggest",
+"sep": "vor",
+"present": [
+"schlage vor",
+"schlägst vor",
+"schlägt vor",
+"schlagen vor",
+"schlagt vor",
+"schlagen vor"
+],
+"preterite": [
+"schlug vor",
+"schlugst vor",
+"schlug vor",
+"schlugen vor",
+"schlugt vor",
+"schlugen vor"
+],
+"aux": "haben",
+"participle": "vorgeschlagen",
+"level": "A2"
+},
+{
+"inf": "behalten",
+"en": "to keep",
+"sep": "",
+"present": [
+"behalte",
+"behältst",
+"behält",
+"behalten",
+"behaltet",
+"behalten"
+],
+"preterite": [
+"behielt",
+"behieltest",
+"behielt",
+"behielten",
+"behieltet",
+"behielten"
+],
+"aux": "haben",
+"participle": "behalten",
+"level": "A2"
+},
+{
+"inf": "werfen",
+"en": "to throw",
+"sep": "",
+"present": [
+"werfe",
+"wirfst",
+"wirft",
+"werfen",
+"werft",
+"werfen"
+],
+"preterite": [
+"warf",
+"warfst",
+"warf",
+"warfen",
+"warft",
+"warfen"
+],
+"aux": "haben",
+"participle": "geworfen",
+"level": "A2"
+},
+{
+"inf": "steigen",
+"en": "to climb, to rise",
+"sep": "",
+"present": [
+"steige",
+"steigst",
+"steigt",
+"steigen",
+"steigt",
+"steigen"
+],
+"preterite": [
+"stieg",
+"stiegst",
+"stieg",
+"stiegen",
+"stiegt",
+"stiegen"
+],
+"aux": "sein",
+"participle": "gestiegen",
+"level": "A2"
+},
+{
+"inf": "einsteigen",
+"en": "to get in, to board",
+"sep": "ein",
+"present": [
+"steige ein",
+"steigst ein",
+"steigt ein",
+"steigen ein",
+"steigt ein",
+"steigen ein"
+],
+"preterite": [
+"stieg ein",
+"stiegst ein",
+"stieg ein",
+"stiegen ein",
+"stiegt ein",
+"stiegen ein"
+],
+"aux": "sein",
+"participle": "eingestiegen",
+"level": "A2"
+},
+{
+"inf": "umsteigen",
+"en": "to change (trains)",
+"sep": "um",
+"present": [
+"steige um",
+"steigst um",
+"steigt um",
+"steigen um",
+"steigt um",
+"steigen um"
+],
+"preterite": [
+"stieg um",
+"stiegst um",
+"stieg um",
+"stiegen um",
+"stiegt um",
+"stiegen um"
+],
+"aux": "sein",
+"participle": "umgestiegen",
+"level": "A2"
+},
+{
+"inf": "aussteigen",
+"en": "to get off",
+"sep": "aus",
+"present": [
+"steige aus",
+"steigst aus",
+"steigt aus",
+"steigen aus",
+"steigt aus",
+"steigen aus"
+],
+"preterite": [
+"stieg aus",
+"stiegst aus",
+"stieg aus",
+"stiegen aus",
+"stiegt aus",
+"stiegen aus"
+],
+"aux": "sein",
+"participle": "ausgestiegen",
+"level": "A2"
+},
+{
+"inf": "übertragen",
+"en": "to transfer, to broadcast",
+"sep": "",
+"present": [
+"übertrage",
+"überträgst",
+"überträgt",
+"übertragen",
+"übertragt",
+"übertragen"
+],
+"preterite": [
+"übertrug",
+"übertrugst",
+"übertrug",
+"übertrugen",
+"übertrugt",
+"übertrugen"
+],
+"aux": "haben",
+"participle": "übertragen",
+"level": "A2"
+},
+{
+"inf": "singen",
+"en": "to sing",
+"sep": "",
+"present": [
+"singe",
+"singst",
+"singt",
+"singen",
+"singt",
+"singen"
+],
+"preterite": [
+"sang",
+"sangst",
+"sang",
+"sangen",
+"sangt",
+"sangen"
+],
+"aux": "haben",
+"participle": "gesungen",
+"level": "A2"
+},
+{
+"inf": "vermeiden",
+"en": "to avoid",
+"sep": "",
+"present": [
+"vermeide",
+"vermeidest",
+"vermeidet",
+"vermeiden",
+"vermeidet",
+"vermeiden"
+],
+"preterite": [
+"vermied",
+"vermiedest",
+"vermied",
+"vermieden",
+"vermiedet",
+"vermieden"
+],
+"aux": "haben",
+"participle": "vermieden",
+"level": "A2"
+},
+{
+"inf": "scheinen",
+"en": "to shine, to seem",
+"sep": "",
+"present": [
+"scheine",
+"scheinst",
+"scheint",
+"scheinen",
+"scheint",
+"scheinen"
+],
+"preterite": [
+"schien",
+"schienst",
+"schien",
+"schienen",
+"schient",
+"schienen"
+],
+"aux": "haben",
+"participle": "geschienen",
+"level": "A2"
+},
+{
+"inf": "besitzen",
+"en": "to own",
+"sep": "",
+"present": [
+"besitze",
+"besitzt",
+"besitzt",
+"besitzen",
+"besitzt",
+"besitzen"
+],
+"preterite": [
+"besaß",
+"besaßest",
+"besaß",
+"besaßen",
+"besaßt",
+"besaßen"
+],
+"aux": "haben",
+"participle": "besessen",
+"level": "A2"
+},
+{
+"inf": "beweisen",
+"en": "to prove",
+"sep": "",
+"present": [
+"beweise",
+"beweist",
+"beweist",
+"beweisen",
+"beweist",
+"beweisen"
+],
+"preterite": [
+"bewies",
+"bewiesest",
+"bewies",
+"bewiesen",
+"bewiest",
+"bewiesen"
+],
+"aux": "haben",
+"participle": "bewiesen",
+"level": "A2"
+},
+{
+"inf": "rufen",
+"en": "to call",
+"sep": "",
+"present": [
+"rufe",
+"rufst",
+"ruft",
+"rufen",
+"ruft",
+"rufen"
+],
+"preterite": [
+"rief",
+"riefst",
+"rief",
+"riefen",
+"rieft",
+"riefen"
+],
+"aux": "haben",
+"participle": "gerufen",
+"level": "A2"
+},
+{
+"inf": "unterscheiden",
+"en": "to distinguish",
+"sep": "",
+"present": [
+"unterscheide",
+"unterscheidest",
+"unterscheidet",
+"unterscheiden",
+"unterscheidet",
+"unterscheiden"
+],
+"preterite": [
+"unterschied",
+"unterschiedest",
+"unterschied",
+"unterschieden",
+"unterschiedet",
+"unterschieden"
+],
+"aux": "haben",
+"participle": "unterschieden",
+"level": "A2"
+},
+{
+"inf": "anrufen",
+"en": "to call (phone)",
+"sep": "an",
+"present": [
+"rufe an",
+"rufst an",
+"ruft an",
+"rufen an",
+"ruft an",
+"rufen an"
+],
+"preterite": [
+"rief an",
+"riefst an",
+"rief an",
+"riefen an",
+"rieft an",
+"riefen an"
+],
+"aux": "haben",
+"participle": "angerufen",
+"level": "A2"
+},
+{
+"inf": "bitten",
+"en": "to ask, to request",
+"sep": "",
+"present": [
+"bitte",
+"bittest",
+"bittet",
+"bitten",
+"bittet",
+"bitten"
+],
+"preterite": [
+"bat",
+"batest",
+"bat",
+"baten",
+"batet",
+"baten"
+],
+"aux": "haben",
+"participle": "gebeten",
+"level": "A2"
+},
+{
+"inf": "verschwinden",
+"en": "to disappear",
+"sep": "",
+"present": [
+"verschwinde",
+"verschwindest",
+"verschwindet",
+"verschwinden",
+"verschwindet",
+"verschwinden"
+],
+"preterite": [
+"verschwand",
+"verschwandest",
+"verschwand",
+"verschwanden",
+"verschwandet",
+"verschwanden"
+],
+"aux": "sein",
+"participle": "verschwunden",
+"level": "A2"
+},
+{
+"inf": "wachsen",
+"en": "to grow",
+"sep": "",
+"present": [
+"wachse",
+"wächst",
+"wächst",
+"wachsen",
+"wachst",
+"wachsen"
+],
+"preterite": [
+"wuchs",
+"wuchsest",
+"wuchs",
+"wuchsen",
+"wuchst",
+"wuchsen"
+],
+"aux": "sein",
+"participle": "gewachsen",
+"level": "A2"
+},
+{
+"inf": "greifen",
+"en": "to grab",
+"sep": "",
+"present": [
+"greife",
+"greifst",
+"greift",
+"greifen",
+"greift",
+"greifen"
+],
+"preterite": [
+"griff",
+"griffst",
+"griff",
+"griffen",
+"grifft",
+"griffen"
+],
+"aux": "haben",
+"participle": "gegriffen",
+"level": "A2"
+},
+{
+"inf": "lügen",
+"en": "to lie, to tell a lie",
+"sep": "",
+"present": [
+"lüge",
+"lügst",
+"lügt",
+"lügen",
+"lügt",
+"lügen"
+],
+"preterite": [
+"log",
+"logst",
+"log",
+"logen",
+"logt",
+"logen"
+],
+"aux": "haben",
+"participle": "gelogen",
+"level": "A2"
+},
+{
+"inf": "vergleichen",
+"en": "to compare",
+"sep": "",
+"present": [
+"vergleiche",
+"vergleichst",
+"vergleicht",
+"vergleichen",
+"vergleicht",
+"vergleichen"
+],
+"preterite": [
+"verglich",
+"verglichst",
+"verglich",
+"verglichen",
+"verglicht",
+"verglichen"
+],
+"aux": "haben",
+"participle": "verglichen",
+"level": "A2"
+},
+{
+"inf": "treiben",
+"en": "to drive, to do (sport)",
+"sep": "",
+"present": [
+"treibe",
+"treibst",
+"treibt",
+"treiben",
+"treibt",
+"treiben"
+],
+"preterite": [
+"trieb",
+"triebst",
+"trieb",
+"trieben",
+"triebt",
+"trieben"
+],
+"aux": "haben",
+"participle": "getrieben",
+"level": "A2"
+},
+{
+"inf": "verbringen",
+"en": "to spend (time)",
+"sep": "",
+"present": [
+"verbringe",
+"verbringst",
+"verbringt",
+"verbringen",
+"verbringt",
+"verbringen"
+],
+"preterite": [
+"verbrachte",
+"verbrachtest",
+"verbrachte",
+"verbrachten",
+"verbrachtet",
+"verbrachten"
+],
+"aux": "haben",
+"participle": "verbracht",
+"level": "A2"
+},
+{
+"inf": "versprechen",
+"en": "to promise",
+"sep": "",
+"present": [
+"verspreche",
+"versprichst",
+"verspricht",
+"versprechen",
+"versprecht",
+"versprechen"
+],
+"preterite": [
+"versprach",
+"versprachst",
+"versprach",
+"versprachen",
+"verspracht",
+"versprachen"
+],
+"aux": "haben",
+"participle": "versprochen",
+"level": "A2"
+},
+{
+"inf": "schwimmen",
+"en": "to swim",
+"sep": "",
+"present": [
+"schwimme",
+"schwimmst",
+"schwimmt",
+"schwimmen",
+"schwimmt",
+"schwimmen"
+],
+"preterite": [
+"schwamm",
+"schwammst",
+"schwamm",
+"schwammen",
+"schwammt",
+"schwammen"
+],
+"aux": "sein",
+"participle": "geschwommen",
+"level": "A2"
+},
+{
+"inf": "entlassen",
+"en": "to dismiss",
+"sep": "",
+"present": [
+"entlasse",
+"entlässt",
+"entlässt",
+"entlassen",
+"entlasst",
+"entlassen"
+],
+"preterite": [
+"entließ",
+"entließest",
+"entließ",
+"entließen",
+"entließt",
+"entließen"
+],
+"aux": "haben",
+"participle": "entlassen",
+"level": "A2"
+},
+{
+"inf": "schießen",
+"en": "to shoot",
+"sep": "",
+"present": [
+"schieße",
+"schießt",
+"schießt",
+"schießen",
+"schießt",
+"schießen"
+],
+"preterite": [
+"schoss",
+"schossest",
+"schoss",
+"schossen",
+"schosst",
+"schossen"
+],
+"aux": "haben",
+"participle": "geschossen",
+"level": "A2"
+},
+{
+"inf": "beschreiben",
+"en": "to describe",
+"sep": "",
+"present": [
+"beschreibe",
+"beschreibst",
+"beschreibt",
+"beschreiben",
+"beschreibt",
+"beschreiben"
+],
+"preterite": [
+"beschrieb",
+"beschriebst",
+"beschrieb",
+"beschrieben",
+"beschriebt",
+"beschrieben"
+],
+"aux": "haben",
+"participle": "beschrieben",
+"level": "A2"
+},
+{
+"inf": "verbinden",
+"en": "to connect",
+"sep": "",
+"present": [
+"verbinde",
+"verbindest",
+"verbindet",
+"verbinden",
+"verbindet",
+"verbinden"
+],
+"preterite": [
+"verband",
+"verbandest",
+"verband",
+"verbanden",
+"verbandet",
+"verbanden"
+],
+"aux": "haben",
+"participle": "verbunden",
+"level": "A2"
+},
+{
+"inf": "brechen",
+"en": "to break",
+"sep": "",
+"present": [
+"breche",
+"brichst",
+"bricht",
+"brechen",
+"brecht",
+"brechen"
+],
+"preterite": [
+"brach",
+"brachst",
+"brach",
+"brachen",
+"bracht",
+"brachen"
+],
+"aux": "haben",
+"participle": "gebrochen",
+"level": "A2"
+},
+{
+"inf": "messen",
+"en": "to measure",
+"sep": "",
+"present": [
+"messe",
+"misst",
+"misst",
+"messen",
+"messt",
+"messen"
+],
+"preterite": [
+"maß",
+"maßest",
+"maß",
+"maßen",
+"maßt",
+"maßen"
+],
+"aux": "haben",
+"participle": "gemessen",
+"level": "A2"
+},
+{
+"inf": "schneiden",
+"en": "to cut",
+"sep": "",
+"present": [
+"schneide",
+"schneidest",
+"schneidet",
+"schneiden",
+"schneidet",
+"schneiden"
+],
+"preterite": [
+"schnitt",
+"schnittest",
+"schnitt",
+"schnitten",
+"schnittet",
+"schnitten"
+],
+"aux": "haben",
+"participle": "geschnitten",
+"level": "A2"
+},
+{
+"inf": "raten",
+"en": "to advise, to guess",
+"sep": "",
+"present": [
+"rate",
+"rätst",
+"rät",
+"raten",
+"ratet",
+"raten"
+],
+"preterite": [
+"riet",
+"rietest",
+"riet",
+"rieten",
+"rietet",
+"rieten"
+],
+"aux": "haben",
+"participle": "geraten",
+"level": "B1"
+},
+{
+"inf": "beraten",
+"en": "to advise",
+"sep": "",
+"present": [
+"berate",
+"berätst",
+"berät",
+"beraten",
+"beratet",
+"beraten"
+],
+"preterite": [
+"beriet",
+"berietest",
+"beriet",
+"berieten",
+"berietet",
+"berieten"
+],
+"aux": "haben",
+"participle": "beraten",
+"level": "B1"
+},
+{
+"inf": "hinterlassen",
+"en": "to leave behind",
+"sep": "",
+"present": [
+"hinterlasse",
+"hinterlässt",
+"hinterlässt",
+"hinterlassen",
+"hinterlasst",
+"hinterlassen"
+],
+"preterite": [
+"hinterließ",
+"hinterließest",
+"hinterließ",
+"hinterließen",
+"hinterließt",
+"hinterließen"
+],
+"aux": "haben",
+"participle": "hinterlassen",
+"level": "B1"
+},
+{
+"inf": "senden",
+"en": "to send",
+"sep": "",
+"present": [
+"sende",
+"sendest",
+"sendet",
+"senden",
+"sendet",
+"senden"
+],
+"preterite": [
+"sandte",
+"sandtest",
+"sandte",
+"sandten",
+"sandtet",
+"sandten"
+],
+"aux": "haben",
+"participle": "gesandt",
+"level": "B1"
+},
+{
+"inf": "fangen",
+"en": "to catch",
+"sep": "",
+"present": [
+"fange",
+"fängst",
+"fängt",
+"fangen",
+"fangt",
+"fangen"
+],
+"preterite": [
+"fing",
+"fingst",
+"fing",
+"fingen",
+"fingt",
+"fingen"
+],
+"aux": "haben",
+"participle": "gefangen",
+"level": "B1"
+},
+{
+"inf": "springen",
+"en": "to jump",
+"sep": "",
+"present": [
+"springe",
+"springst",
+"springt",
+"springen",
+"springt",
+"springen"
+],
+"preterite": [
+"sprang",
+"sprangst",
+"sprang",
+"sprangen",
+"sprangt",
+"sprangen"
+],
+"aux": "sein",
+"participle": "gesprungen",
+"level": "B1"
+},
+{
+"inf": "anfangen",
+"en": "to start",
+"sep": "an",
+"present": [
+"fange an",
+"fängst an",
+"fängt an",
+"fangen an",
+"fangt an",
+"fangen an"
+],
+"preterite": [
+"fing an",
+"fingst an",
+"fing an",
+"fingen an",
+"fingt an",
+"fingen an"
+],
+"aux": "haben",
+"participle": "angefangen",
+"level": "B1"
+},
+{
+"inf": "streiten",
+"en": "to argue",
+"sep": "",
+"present": [
+"streite",
+"streitest",
+"streitet",
+"streiten",
+"streitet",
+"streiten"
+],
+"preterite": [
+"stritt",
+"strittest",
+"stritt",
+"stritten",
+"strittet",
+"stritten"
+],
+"aux": "haben",
+"participle": "gestritten",
+"level": "B1"
+},
+{
+"inf": "schreien",
+"en": "to shout, to scream",
+"sep": "",
+"present": [
+"schreie",
+"schreist",
+"schreit",
+"schreien",
+"schreit",
+"schreien"
+],
+"preterite": [
+"schrie",
+"schriest",
+"schrie",
+"schrien",
+"schriet",
+"schrien"
+],
+"aux": "haben",
+"participle": "geschrien",
+"level": "B1"
+},
+{
+"inf": "waschen",
+"en": "to wash",
+"sep": "",
+"present": [
+"wasche",
+"wäschst",
+"wäscht",
+"waschen",
+"wascht",
+"waschen"
+],
+"preterite": [
+"wusch",
+"wuschst",
+"wusch",
+"wuschen",
+"wuscht",
+"wuschen"
+],
+"aux": "haben",
+"participle": "gewaschen",
+"level": "B1"
+},
+{
+"inf": "abwaschen",
+"en": "to wash up",
+"sep": "ab",
+"present": [
+"wasche ab",
+"wäschst ab",
+"wäscht ab",
+"waschen ab",
+"wascht ab",
+"waschen ab"
+],
+"preterite": [
+"wusch ab",
+"wuschst ab",
+"wusch ab",
+"wuschen ab",
+"wuscht ab",
+"wuschen ab"
+],
+"aux": "haben",
+"participle": "abgewaschen",
+"level": "B1"
+},
+{
+"inf": "zwingen",
+"en": "to force",
+"sep": "",
+"present": [
+"zwinge",
+"zwingst",
+"zwingt",
+"zwingen",
+"zwingt",
+"zwingen"
+],
+"preterite": [
+"zwang",
+"zwangst",
+"zwang",
+"zwangen",
+"zwangt",
+"zwangen"
+],
+"aux": "haben",
+"participle": "gezwungen",
+"level": "B1"
+},
+{
+"inf": "unterschreiben",
+"en": "to sign",
+"sep": "",
+"present": [
+"unterschreibe",
+"unterschreibst",
+"unterschreibt",
+"unterschreiben",
+"unterschreibt",
+"unterschreiben"
+],
+"preterite": [
+"unterschrieb",
+"unterschriebst",
+"unterschrieb",
+"unterschrieben",
+"unterschriebt",
+"unterschrieben"
+],
+"aux": "haben",
+"participle": "unterschrieben",
+"level": "B1"
+},
+{
+"inf": "verbieten",
+"en": "to forbid",
+"sep": "",
+"present": [
+"verbiete",
+"verbietest",
+"verbietet",
+"verbieten",
+"verbietet",
+"verbieten"
+],
+"preterite": [
+"verbot",
+"verbotest",
+"verbot",
+"verboten",
+"verbotet",
+"verboten"
+],
+"aux": "haben",
+"participle": "verboten",
+"level": "B1"
+},
+{
+"inf": "streichen",
+"en": "to paint, to cross out",
+"sep": "",
+"present": [
+"streiche",
+"streichst",
+"streicht",
+"streichen",
+"streicht",
+"streichen"
+],
+"preterite": [
+"strich",
+"strichst",
+"strich",
+"strichen",
+"stricht",
+"strichen"
+],
+"aux": "haben",
+"participle": "gestrichen",
+"level": "B1"
+},
+{
+"inf": "schieben",
+"en": "to push",
+"sep": "",
+"present": [
+"schiebe",
+"schiebst",
+"schiebt",
+"schieben",
+"schiebt",
+"schieben"
+],
+"preterite": [
+"schob",
+"schobst",
+"schob",
+"schoben",
+"schobt",
+"schoben"
+],
+"aux": "haben",
+"participle": "geschoben",
+"level": "B1"
+},
+{
+"inf": "fressen",
+"en": "to eat (of animals)",
+"sep": "",
+"present": [
+"fresse",
+"frisst",
+"frisst",
+"fressen",
+"fresst",
+"fressen"
+],
+"preterite": [
+"fraß",
+"fraßest",
+"fraß",
+"fraßen",
+"fraßt",
+"fraßen"
+],
+"aux": "haben",
+"participle": "gefressen",
+"level": "B1"
+},
+{
+"inf": "heben",
+"en": "to lift",
+"sep": "",
+"present": [
+"hebe",
+"hebst",
+"hebt",
+"heben",
+"hebt",
+"heben"
+],
+"preterite": [
+"hob",
+"hobst",
+"hob",
+"hoben",
+"hobt",
+"hoben"
+],
+"aux": "haben",
+"participle": "gehoben",
+"level": "B1"
+},
+{
+"inf": "aufheben",
+"en": "to pick up, to keep",
+"sep": "auf",
+"present": [
+"hebe auf",
+"hebst auf",
+"hebt auf",
+"heben auf",
+"hebt auf",
+"heben auf"
+],
+"preterite": [
+"hob auf",
+"hobst auf",
+"hob auf",
+"hoben auf",
+"hobt auf",
+"hoben auf"
+],
+"aux": "haben",
+"participle": "aufgehoben",
+"level": "B1"
+},
+{
+"inf": "reiten",
+"en": "to ride (a horse)",
+"sep": "",
+"present": [
+"reite",
+"reitest",
+"reitet",
+"reiten",
+"reitet",
+"reiten"
+],
+"preterite": [
+"ritt",
+"rittest",
+"ritt",
+"ritten",
+"rittet",
+"ritten"
+],
+"aux": "sein",
+"participle": "geritten",
+"level": "B1"
+},
+{
+"inf": "sinken",
+"en": "to sink",
+"sep": "",
+"present": [
+"sinke",
+"sinkst",
+"sinkt",
+"sinken",
+"sinkt",
+"sinken"
+],
+"preterite": [
+"sank",
+"sankst",
+"sank",
+"sanken",
+"sankt",
+"sanken"
+],
+"aux": "sein",
+"participle": "gesunken",
+"level": "B1"
+},
+{
+"inf": "stoßen",
+"en": "to push, to bump",
+"sep": "",
+"present": [
+"stoße",
+"stößt",
+"stößt",
+"stoßen",
+"stoßt",
+"stoßen"
+],
+"preterite": [
+"stieß",
+"stießest",
+"stieß",
+"stießen",
+"stießt",
+"stießen"
+],
+"aux": "haben",
+"participle": "gestoßen",
+"level": "B1"
+},
+{
+"inf": "gelingen",
+"en": "to succeed",
+"sep": "",
+"present": [
+"gelinge",
+"gelingst",
+"gelingt",
+"gelingen",
+"gelingt",
+"gelingen"
+],
+"preterite": [
+"gelang",
+"gelangst",
+"gelang",
+"gelangen",
+"gelangt",
+"gelangen"
+],
+"aux": "sein",
+"participle": "gelungen",
+"level": "B1"
+},
+{
+"inf": "brennen",
+"en": "to burn",
+"sep": "",
+"present": [
+"brenne",
+"brennst",
+"brennt",
+"brennen",
+"brennt",
+"brennen"
+],
+"preterite": [
+"brannte",
+"branntest",
+"brannte",
+"brannten",
+"branntet",
+"brannten"
+],
+"aux": "haben",
+"participle": "gebrannt",
+"level": "B1"
+},
+{
+"inf": "fliehen",
+"en": "to flee",
+"sep": "",
+"present": [
+"fliehe",
+"fliehst",
+"flieht",
+"fliehen",
+"flieht",
+"fliehen"
+],
+"preterite": [
+"floh",
+"flohst",
+"floh",
+"flohen",
+"floht",
+"flohen"
+],
+"aux": "sein",
+"participle": "geflohen",
+"level": "B1"
+},
+{
+"inf": "verschieben",
+"en": "to postpone",
+"sep": "",
+"present": [
+"verschiebe",
+"verschiebst",
+"verschiebt",
+"verschieben",
+"verschiebt",
+"verschieben"
+],
+"preterite": [
+"verschob",
+"verschobst",
+"verschob",
+"verschoben",
+"verschobt",
+"verschoben"
+],
+"aux": "haben",
+"participle": "verschoben",
+"level": "B1"
+},
+{
+"inf": "fließen",
+"en": "to flow",
+"sep": "",
+"present": [
+"fließe",
+"fließt",
+"fließt",
+"fließen",
+"fließt",
+"fließen"
+],
+"preterite": [
+"floss",
+"flossest",
+"floss",
+"flossen",
+"flosst",
+"flossen"
+],
+"aux": "sein",
+"participle": "geflossen",
+"level": "B1"
+},
+{
+"inf": "besprechen",
+"en": "to discuss",
+"sep": "",
+"present": [
+"bespreche",
+"besprichst",
+"bespricht",
+"besprechen",
+"besprecht",
+"besprechen"
+],
+"preterite": [
+"besprach",
+"besprachst",
+"besprach",
+"besprachen",
+"bespracht",
+"besprachen"
+],
+"aux": "haben",
+"participle": "besprochen",
+"level": "B1"
+},
+{
+"inf": "widersprechen",
+"en": "to contradict",
+"sep": "",
+"present": [
+"widerspreche",
+"widersprichst",
+"widerspricht",
+"widersprechen",
+"widersprecht",
+"widersprechen"
+],
+"preterite": [
+"widersprach",
+"widersprachst",
+"widersprach",
+"widersprachen",
+"widerspracht",
+"widersprachen"
+],
+"aux": "haben",
+"participle": "widersprochen",
+"level": "B1"
+},
+{
+"inf": "verleihen",
+"en": "to lend out",
+"sep": "",
+"present": [
+"verleihe",
+"verleihst",
+"verleiht",
+"verleihen",
+"verleiht",
+"verleihen"
+],
+"preterite": [
+"verlieh",
+"verliehst",
+"verlieh",
+"verliehen",
+"verlieht",
+"verliehen"
+],
+"aux": "haben",
+"participle": "verliehen",
+"level": "B1"
+},
+{
+"inf": "riechen",
+"en": "to smell",
+"sep": "",
+"present": [
+"rieche",
+"riechst",
+"riecht",
+"riechen",
+"riecht",
+"riechen"
+],
+"preterite": [
+"roch",
+"rochst",
+"roch",
+"rochen",
+"rocht",
+"rochen"
+],
+"aux": "haben",
+"participle": "gerochen",
+"level": "B1"
+},
+{
+"inf": "erfinden",
+"en": "to invent",
+"sep": "",
+"present": [
+"erfinde",
+"erfindest",
+"erfindet",
+"erfinden",
+"erfindet",
+"erfinden"
+],
+"preterite": [
+"erfand",
+"erfandest",
+"erfand",
+"erfanden",
+"erfandet",
+"erfanden"
+],
+"aux": "haben",
+"participle": "erfunden",
+"level": "B1"
+},
+{
+"inf": "stehlen",
+"en": "to steal",
+"sep": "",
+"present": [
+"stehle",
+"stiehlst",
+"stiehlt",
+"stehlen",
+"stehlt",
+"stehlen"
+],
+"preterite": [
+"stahl",
+"stahlst",
+"stahl",
+"stahlen",
+"stahlt",
+"stahlen"
+],
+"aux": "haben",
+"participle": "gestohlen",
+"level": "B1"
+},
+{
+"inf": "beschließen",
+"en": "to decide, to resolve",
+"sep": "",
+"present": [
+"beschließe",
+"beschließt",
+"beschließt",
+"beschließen",
+"beschließt",
+"beschließen"
+],
+"preterite": [
+"beschloss",
+"beschlossest",
+"beschloss",
+"beschlossen",
+"beschlosst",
+"beschlossen"
+],
+"aux": "haben",
+"participle": "beschlossen",
+"level": "B1"
+},
+{
+"inf": "leihen",
+"en": "to lend, to borrow",
+"sep": "",
+"present": [
+"leihe",
+"leihst",
+"leiht",
+"leihen",
+"leiht",
+"leihen"
+],
+"preterite": [
+"lieh",
+"liehst",
+"lieh",
+"liehen",
+"lieht",
+"liehen"
+],
+"aux": "haben",
+"participle": "geliehen",
+"level": "B1"
+},
+{
+"inf": "braten",
+"en": "to fry, to roast",
+"sep": "",
+"present": [
+"brate",
+"brätst",
+"brät",
+"braten",
+"bratet",
+"braten"
+],
+"preterite": [
+"briet",
+"brietest",
+"briet",
+"brieten",
+"brietet",
+"brieten"
+],
+"aux": "haben",
+"participle": "gebraten",
+"level": "B1"
+},
+{
+"inf": "überfahren",
+"en": "to run over",
+"sep": "",
+"present": [
+"überfahre",
+"überfährst",
+"überfährt",
+"überfahren",
+"überfahrt",
+"überfahren"
+],
+"preterite": [
+"überfuhr",
+"überfuhrst",
+"überfuhr",
+"überfuhren",
+"überfuhrt",
+"überfuhren"
+],
+"aux": "haben",
+"participle": "überfahren",
+"level": "B1"
+},
+{
+"inf": "erziehen",
+"en": "to raise, to bring up",
+"sep": "",
+"present": [
+"erziehe",
+"erziehst",
+"erzieht",
+"erziehen",
+"erzieht",
+"erziehen"
+],
+"preterite": [
+"erzog",
+"erzogst",
+"erzog",
+"erzogen",
+"erzogt",
+"erzogen"
+],
+"aux": "haben",
+"participle": "erzogen",
+"level": "B1"
+},
+{
+"inf": "übertreiben",
+"en": "to exaggerate",
+"sep": "",
+"present": [
+"übertreibe",
+"übertreibst",
+"übertreibt",
+"übertreiben",
+"übertreibt",
+"übertreiben"
+],
+"preterite": [
+"übertrieb",
+"übertriebst",
+"übertrieb",
+"übertrieben",
+"übertriebt",
+"übertrieben"
+],
+"aux": "haben",
+"participle": "übertrieben",
+"level": "B1"
+},
+{
+"inf": "überweisen",
+"en": "to transfer (money)",
+"sep": "",
+"present": [
+"überweise",
+"überweist",
+"überweist",
+"überweisen",
+"überweist",
+"überweisen"
+],
+"preterite": [
+"überwies",
+"überwiesest",
+"überwies",
+"überwiesen",
+"überwiest",
+"überwiesen"
+],
+"aux": "haben",
+"participle": "überwiesen",
+"level": "B1"
+},
+{
+"inf": "unterbrechen",
+"en": "to interrupt",
+"sep": "",
+"present": [
+"unterbreche",
+"unterbrichst",
+"unterbricht",
+"unterbrechen",
+"unterbrecht",
+"unterbrechen"
+],
+"preterite": [
+"unterbrach",
+"unterbrachst",
+"unterbrach",
+"unterbrachen",
+"unterbracht",
+"unterbrachen"
+],
+"aux": "haben",
+"participle": "unterbrochen",
+"level": "B1"
+},
+{
+"inf": "abbiegen",
+"en": "to turn (off)",
+"sep": "ab",
+"present": [
+"biege ab",
+"biegst ab",
+"biegt ab",
+"biegen ab",
+"biegt ab",
+"biegen ab"
+],
+"preterite": [
+"bog ab",
+"bogst ab",
+"bog ab",
+"bogen ab",
+"bogt ab",
+"bogen ab"
+],
+"aux": "sein",
+"participle": "abgebogen",
+"level": "B1"
+},
+{
+"inf": "unterstreichen",
+"en": "to underline",
+"sep": "",
+"present": [
+"unterstreiche",
+"unterstreichst",
+"unterstreicht",
+"unterstreichen",
+"unterstreicht",
+"unterstreichen"
+],
+"preterite": [
+"unterstrich",
+"unterstrichst",
+"unterstrich",
+"unterstrichen",
+"unterstricht",
+"unterstrichen"
+],
+"aux": "haben",
+"participle": "unterstrichen",
+"level": "B1"
+},
+{
+"inf": "betrügen",
+"en": "to cheat",
+"sep": "",
+"present": [
+"betrüge",
+"betrügst",
+"betrügt",
+"betrügen",
+"betrügt",
+"betrügen"
+],
+"preterite": [
+"betrog",
+"betrogst",
+"betrog",
+"betrogen",
+"betrogt",
+"betrogen"
+],
+"aux": "haben",
+"participle": "betrogen",
+"level": "B1"
+},
+{
+"inf": "stinken",
+"en": "to stink",
+"sep": "",
+"present": [
+"stinke",
+"stinkst",
+"stinkt",
+"stinken",
+"stinkt",
+"stinken"
+],
+"preterite": [
+"stank",
+"stankst",
+"stank",
+"stanken",
+"stankt",
+"stanken"
+],
+"aux": "haben",
+"participle": "gestunken",
+"level": "B1"
+},
+{
+"inf": "frieren",
+"en": "to freeze",
+"sep": "",
+"present": [
+"friere",
+"frierst",
+"friert",
+"frieren",
+"friert",
+"frieren"
+],
+"preterite": [
+"fror",
+"frorst",
+"fror",
+"froren",
+"frort",
+"froren"
+],
+"aux": "haben",
+"participle": "gefroren",
+"level": "B1"
+},
+{
+"inf": "verschreiben",
+"en": "to prescribe",
+"sep": "",
+"present": [
+"verschreibe",
+"verschreibst",
+"verschreibt",
+"verschreiben",
+"verschreibt",
+"verschreiben"
+],
+"preterite": [
+"verschrieb",
+"verschriebst",
+"verschrieb",
+"verschrieben",
+"verschriebt",
+"verschrieben"
+],
+"aux": "haben",
+"participle": "verschrieben",
+"level": "B1"
+},
+{
+"inf": "missverstehen",
+"en": "to misunderstand",
+"sep": "",
+"present": [
+"missverstehe",
+"missverstehst",
+"missversteht",
+"missverstehen",
+"missversteht",
+"missverstehen"
+],
+"preterite": [
+"missverstand",
+"missverstandest",
+"missverstand",
+"missverstanden",
+"missverstandet",
+"missverstanden"
+],
+"aux": "haben",
+"participle": "missverstanden",
+"level": "B1"
+}
+]
+}
