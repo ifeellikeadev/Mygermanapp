@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#1d3b6f"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><title>Deutsch</title>
+<style>:root{--bg:#f6f7fb;--c:#fff;--t:#1b1f2a;--m:#6b7280;--l:#e3e6ee;--p:#1d3b6f}@media(prefers-color-scheme:dark){:root{--bg:#10131a;--c:#1a1f2b;--t:#e8ebf2;--m:#98a0b3;--l:#2a3040;--p:#6d9eeb}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:16px system-ui,sans-serif;padding:env(safe-area-inset-top) 0 calc(64px + env(safe-area-inset-bottom))}
+main{max-width:640px;margin:0 auto;padding:12px}.card{background:var(--c);border:1px solid var(--l);border-radius:14px;padding:16px;margin:10px 0}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--c);border-top:1px solid var(--l);padding-bottom:env(safe-area-inset-bottom)}nav button{flex:1;border:0;background:none;color:var(--m);padding:12px 0;font-size:13px}nav .on{color:var(--p);font-weight:700}
+button.b{background:var(--p);color:#fff;border:0;border-radius:10px;padding:12px 16px;font-size:16px;margin:4px 4px 4px 0}button.o{background:none;color:var(--t);border:1px solid var(--l)}
+.big{font-size:30px;font-weight:700;text-align:center;margin:18px 0}.m{color:var(--m);font-size:14px}.g{display:flex;gap:6px;flex-wrap:wrap}.g button{flex:1;min-width:70px}
+table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0;display:block;overflow-x:auto}td,th{border:1px solid var(--l);padding:4px 8px;white-space:nowrap}
+input,select{font-size:16px;padding:10px;border-radius:10px;border:1px solid var(--l);background:var(--c);color:var(--t);width:100%;margin:4px 0}.tag{font-size:11px;background:var(--l);border-radius:6px;padding:1px 6px;margin-left:6px}
+.bar{display:flex;align-items:flex-end;gap:8px;height:90px}.bar div{flex:1;background:var(--p);border-radius:4px 4px 0 0;min-height:2px}.opt{display:block;width:100%;text-align:left;margin:6px 0}.ok{background:#2f9e57!important;color:#fff}.no{background:#d6403a!important;color:#fff}.row{padding:10px 0;border-bottom:1px solid var(--l)}</style></head><body><main id="v"></main>
+<nav id="n"></nav>
+<script>
+const $=s=>document.querySelector(s),K='dl1',IV=[1,3,7,21],AR={m:'der',f:'die',n:'das'},COL={m:'#2f6fdd',f:'#d6403a',n:'#2f9e57'};
+let W=[],O=[],G=[],V=[],S,tab='learn',Q=[];
+S=JSON.parse(localStorage[K]||'{}');S.c=S.c||{};S.s=S.s||{n:4,g:1};S.d=S.d||{};
+const sv=()=>localStorage[K]=JSON.stringify(S),today=()=>Math.floor((Date.now()-new Date().getTimezoneOffset()*6e4)/864e5);
+const sh=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]),pick=(a,n)=>sh(a).slice(0,n);
+const wd=(w,big)=>`<span style="color:${COL[w[1]]||'inherit'}">${AR[w[1]]?AR[w[1]]+' ':''}${w[0]}</span>`;
+const v=()=>$('#v'),H=h=>v().innerHTML=h;
+function tabs(){const t=[['learn','Learn'],['quiz','Quiz'],['grammar','Grammar'],['browse','Browse'],['stats','Stats']];$('#n').innerHTML=t.map(x=>`<button class="${tab==x[0]?'on':''}" onclick="go('${x[0]}')">${x[1]}</button>`).join('')}
+function go(t){tab=t;tabs();({learn,quiz,grammar,browse,stats})[t]()}
+function mark(id,g){const c=S.c[id]||{b:0},t=today();if(g==0){c.b=0;c.d=t}else if(g==1)c.d=t+Math.max(1,Math.round(IV[c.b]/2));else if(g==2){c.b=Math.min(c.b+1,3);c.d=t+IV[c.b]}else if(g==3){c.b=Math.min(c.b+2,3);c.d=t+IV[c.b]}else{c.b=3;c.d=t+60;c.k=1}S.c[id]=c;sv()}
+const act=()=>{const t=today();S.d[t]=(S.d[t]||0)+1;sv()};
+function vtab(x){const f=(a,l)=>`<tr><th>${l}</th>${a.map(s=>`<td>${s}</td>`).join('')}</tr>`,p=['ich','du','er/sie/es','wir','ihr','sie/Sie'];return `<table>${p.map((q,i)=>`<tr><th>${q}</th><td>${x.present[i]}</td><td>${x.preterite[i]}</td></tr>`).join('')}<tr><th>Perfekt</th><td colspan=2>${x.aux}: ${x.participle}</td></tr></table><div class="m">present · Präteritum</div>`}
+function gbody(r){return `<p>${r.explain}</p>${r.table?`<table><tr>${r.table.head.map(h=>`<th>${h}</th>`).join('')}</tr>${r.table.rows.map(a=>`<tr>${a.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</table>`:''}${r.examples.map(e=>`<p>${e[0]}<br><span class="m">${e[1]}</span></p>`).join('')}`}
+// ---------- LEARN ----------
+let L={q:[],i:0,f:0};
+function learn(){const t=today(),due=sh(Object.keys(S.c).filter(k=>S.c[k].d<=t)),seen=new Set(Object.keys(S.c));
+ if(L.day!=t){L.day=t;const nw=[];for(const i of O){if(nw.length>=S.s.n)break;if(!seen.has('w'+i))nw.push('w'+i)}const ng=S.s.g?G.filter(r=>!seen.has(r.id)).slice(0,1).map(r=>r.id):[];L.q=[...due.slice(0,40),...nw,...ng];L.i=0;L.f=0;L.n=L.q.length}
+ if(L.i>=L.q.length)return H(`<div class="card"><div class="big">🎉</div><p style="text-align:center">Done for today (${L.n} cards).<br>Go to the Quiz tab to test yourself.</p></div>`);
+ const id=L.q[L.i],k=id[0],x=k=='w'?W[+id.slice(1)]:k=='g'?G.find(r=>r.id==id):V[+id.slice(1)];
+ let fr,bk;if(k=='w'){fr=`<div class="big">${wd(x)}</div><div class="m" style="text-align:center">${x[3]} · ${x[4]} · ${x[5]}</div>`;bk=`<div class="big" style="font-size:22px">${x[2]}</div>${x[8]?`<p class="m" style="text-align:center">Plural: die ${x[8]}</p>`:''}<p>${x[7]}</p>`}
+ else if(k=='g'){fr=`<div class="big" style="font-size:22px">📘 ${x.title}</div><div class="m" style="text-align:center">grammar · ${x.level}</div>`;bk=gbody(x)}
+ else{fr=`<div class="big">${x.inf}</div><div class="m" style="text-align:center">irregular verb</div>`;bk=`<p>${x.en}</p>${vtab(x)}`}
+ H(`<div class="m">${L.i+1} / ${L.q.length}</div><div class="card" onclick="L.f=1;learn()">${fr}${L.f?'<hr>'+bk:'<p class="m" style="text-align:center">tap to reveal</p>'}</div>${L.f?`<div class="g"><button class="b o" onclick="gr(0)">Again</button><button class="b o" onclick="gr(1)">Hard</button><button class="b" onclick="gr(2)">Good</button><button class="b" onclick="gr(3)">Easy</button></div><button class="b o" onclick="gr(4)">Already known</button>`:''}`)}
+function gr(g){const id=L.q[L.i];mark(id,g);act();if(g==0)L.q.splice(Math.min(L.i+4,L.q.length),0,id);L.i++;L.f=0;learn()}
+// ---------- QUIZ ----------
+function mkQ(){const ids=Object.keys(S.c),ws=ids.filter(i=>i[0]=='w').map(i=>+i.slice(1)),qs=[];const t=today(),due=ids.filter(i=>S.c[i].d<=t);
+ const ww=[...due.filter(i=>i[0]=='w').map(i=>+i.slice(1)),...ws];const vs=ids.filter(i=>i[0]=='v').map(i=>+i.slice(1)),gs=G.filter(r=>S.c[r.id]);
+ for(let n=0;n<10;n++){const r=Math.random();
+  if(r<.15&&vs.length){const x=V[pick(vs,1)[0]],kind=pick(['pret','perf','du'],1)[0],ans=kind=='pret'?x.preterite[2]:kind=='perf'?x.aux+' '+x.participle:x.present[1],f=y=>kind=='pret'?y.preterite[2]:kind=='perf'?y.aux+' '+y.participle:y.present[1];qs.push({q:`${x.inf}: ${kind=='pret'?'Präteritum (er)':kind=='perf'?'Perfekt':'du-form'}?`,o:sh([ans,...pick(V.filter(y=>y!=x&&f(y)!=ans),3).map(f)]),a:ans})}
+  else if(r<.35&&gs.length){const g=pick(gs,1)[0],z=pick(g.quiz,1)[0];qs.push({q:z.q,o:sh(z.opts),a:z.opts[z.a],hint:g.title})}
+  else if(ww.length){const i=pick(ww,1)[0],w=W[i];if(r<.55){qs.push({q:`Type the German: <b>${w[2]}</b>`,t:1,a:w[0],id:'w'+i})}else{qs.push({q:`${wd(w)}`,o:sh([w[2],...pick(W.filter(y=>y!=w&&y[3]==w[3]),3).map(y=>y[2])]),a:w[2],id:'w'+i})}}}
+ return qs}
+function quiz(){if(!Q.length||Q.done){const q=mkQ();if(!q.length)return H('<div class="card"><p>Learn a few cards first, then your daily quiz appears here automatically.</p></div>');Q=q;Q.i=0;Q.s=0;Q.done=0}
+ if(Q.i>=Q.length){Q.done=1;S.q=today();sv();return H(`<div class="card"><div class="big">${Q.s} / ${Q.length}</div><button class="b" onclick="Q=[];quiz()">New quiz</button></div>`)}
+ const x=Q[Q.i];H(`<div class="m">${Q.i+1} / ${Q.length}${x.hint?' · '+x.hint:''}</div><div class="card"><div class="big" style="font-size:24px">${x.q}</div>${x.t?`<input id="ti" autocomplete="off" autocapitalize="none"><button class="b" onclick="qa($('#ti').value)">Check</button>`:x.o.map(o=>`<button class="b o opt" onclick="qa(this.textContent,this)">${o}</button>`).join('')}</div>`)}
+function qa(a,el){const x=Q[Q.i],n=s=>s.toLowerCase().replace(/^(der|die|das) /,'').trim(),ok=x.t?n(a)==n(x.a):a==x.a;if(ok)Q.s++;else if(x.id)mark(x.id,0);act();
+ document.querySelectorAll('.opt').forEach(b=>{if(b.textContent==x.a)b.classList.add('ok');else if(b==el)b.classList.add('no')});
+ const c=$('.card');c.insertAdjacentHTML('beforeend',`<p>${ok?'✅ Correct':'❌ '+x.a}</p><button class="b" onclick="Q.i++;quiz()">Next</button>`);c.querySelectorAll('.opt,input').forEach(b=>b.disabled=true)}
+// ---------- GRAMMAR / BROWSE ----------
+function grammar(){H(G.map(r=>`<div class="card" onclick="this.querySelector('.d').hidden=!this.querySelector('.d').hidden"><b>${r.title}</b><span class="tag">${r.level}</span><span class="tag">${S.c[r.id]?['new','1','2','mastered'][S.c[r.id].b]:'not started'}</span><div class="d" hidden>${gbody(r)}</div></div>`).join(''))}
+let BF={t:'all',q:'',n:150};
+function browse(){const th=['all','irregular verbs',...new Set(W.map(w=>w[4]))].sort((a,b)=>a=='all'?-1:b=='all'?1:a<b?-1:1);
+ let items;if(BF.t=='irregular verbs')items=V.map((x,i)=>({h:`<b>${x.inf}</b> <span class="m">${x.en}</span>`,d:vtab(x),id:'v'+i})).filter(o=>o.h.toLowerCase().includes(BF.q));
+ else items=W.map((w,i)=>({w,i})).filter(o=>(BF.t=='all'||o.w[4]==BF.t)&&(o.w[0]+o.w[2]).toLowerCase().includes(BF.q)).map(o=>({h:`${wd(o.w)} <span class="m">${o.w[2]}</span><span class="tag">${o.w[5]}</span>`,d:`<p class="m">${o.w[3]} · ${o.w[4]}${o.w[8]?' · plural: '+o.w[8]:''}</p><p>${o.w[7]}</p>`,id:'w'+o.i}));
+ const st=id=>S.c[id]?['new','1','2','✓'][S.c[id].b]:'';
+ H(`<select onchange="BF.t=this.value;browse()">${th.map(t=>`<option ${t==BF.t?'selected':''}>${t}</option>`).join('')}</select><input placeholder="search" value="${BF.q}" oninput="BF.q=this.value.toLowerCase();clearTimeout(window.bt);window.bt=setTimeout(browse,300)"><div class="m">${items.length} entries</div><div class="card">${items.slice(0,BF.n).map(o=>`<div class="row" onclick="this.lastChild.hidden=!this.lastChild.hidden">${o.h}<span class="tag">${st(o.id)}</span><div hidden>${o.d}</div></div>`).join('')}${items.length>BF.n?'<button class="b o" onclick="BF.n+=150;browse()">More</button>':''}</div>`);const i=document.querySelector('input');if(BF.q){i.focus();i.setSelectionRange(99,99)}}
+// ---------- STATS ----------
+function stats(){const t=today();let st=0,d=S.d[t]?t:t-1;while(S.d[d]){st++;d--}
+ const days=[...Array(7)].map((_,i)=>S.d[t-6+i]||0),mx=Math.max(1,...days),n=Object.keys(S.c).length;
+ H(`<div class="card"><div class="big">🔥 ${st} day${st==1?'':'s'}</div><div class="bar">${days.map(x=>`<div style="height:${x/mx*100}%" title="${x}"></div>`).join('')}</div><div class="m">last 7 days (reviews)</div></div>
+ <div class="card"><b>Coverage</b><p>Words started: ${Object.keys(S.c).filter(k=>k[0]=='w').length} / ${W.length}<br>Grammar rules: ${G.filter(r=>S.c[r.id]).length} / ${G.length}<br>Mastered: ${Object.values(S.c).filter(c=>c.b==3).length} of ${n} started</p></div>
+ <div class="card"><b>Settings</b><p>New words per day<input type="number" min="0" max="50" value="${S.s.n}" onchange="S.s.n=+this.value;L.day=0;sv()"></p><label><input type="checkbox" style="width:auto" ${S.s.g?'checked':''} onchange="S.s.g=this.checked?1:0;L.day=0;sv()"> Grammar rules in Learn</label><p><button class="b" onclick="place()">Retake placement test</button><button class="b o" onclick="navigator.clipboard.writeText(JSON.stringify(S)).then(()=>alert('Progress copied'))">Export</button><button class="b o" onclick="let t=prompt('Paste exported progress');if(t){S=JSON.parse(t);sv();go('stats')}">Import</button></p></div>`)}
+// ---------- PLACEMENT ----------
+function place(){const qs=[];for(const lv of['A1','A2','B1']){const p0=O.map(i=>[W[i],i]).filter(x=>x[0][5]==lv&&x[0][3]!='phrase'),p=p0.slice(0,Math.ceil(p0.length*.6));pick(p,8).forEach(([w,i])=>qs.push({lv,q:wd(w),o:sh([w[2],...pick(W.filter(y=>y!=w&&y[3]==w[3]),3).map(y=>y[2])]),a:w[2]}))}
+ Q=qs;Q.i=0;Q.s=0;Q.pl=1;Q.res={A1:0,A2:0,B1:0};tab='quiz';tabs();pq()}
+function pq(){if(Q.i>=Q.length){const ks=['A1','A2','B1'].filter(l=>Q.res[l]>=6);W.forEach((w,i)=>{if(ks.includes(w[5])&&!S.c['w'+i])mark('w'+i,4)});S.p=1;sv();const r=Q.res;Q=[];return H(`<div class="card"><b>Result</b><p>A1: ${r.A1}/8 · A2: ${r.A2}/8 · B1: ${r.B1}/8</p><p>${ks.length?'Marked as known: '+ks.join(', '):'Nothing marked as known, you will start from the beginning.'}</p><button class="b" onclick="L.day=0;go('learn')">Start learning</button></div>`)}
+ const x=Q[Q.i];H(`<div class="m">Placement test ${Q.i+1} / ${Q.length} (${x.lv})</div><div class="card"><div class="big">${x.q}</div>${x.o.map(o=>`<button class="b o opt" onclick="pa('${o.replace(/'/g,"\\'")}')">${o}</button>`).join('')}</div>`)}
+function pa(a){const x=Q[Q.i];if(a==x.a)Q.res[x.lv]++;Q.i++;pq()}
+// ---------- BOOT ----------
+Promise.all(['words','grammar','verbs'].map(f=>fetch('data/'+f+'.json').then(r=>r.json()))).then(([w,g,v])=>{W=w.w;O=W.map((_,i)=>i).sort((a,b)=>W[a][6]-W[b][6]);G=g.rules;V=v.verbs;
+ tabs();if(!S.p)return place();if(S.q!=today()&&Object.keys(S.c).length>3){tab='quiz';tabs();return quiz()}go('learn')}).catch(e=>H('<div class="card">Could not load data: '+e+'</div>'));
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js');
+</script></body></html>
